@@ -8,6 +8,12 @@ const nextConfig: NextConfig = {
         destination: '/tr',
         permanent: false,
       },
+      {
+        // Redirect any path that DOES NOT start with our locales or next.js internals
+        source: '/:path((?!tr|en|es|_next|api|.*\\.).*)',
+        destination: '/tr/:path',
+        permanent: false,
+      }
     ];
   },
 };
