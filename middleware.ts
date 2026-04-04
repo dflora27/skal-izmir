@@ -5,26 +5,32 @@ const locales = ["tr", "en", "es"];
 const defaultLocale = "tr";
 
 export function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl;
+  try {
+    const { pathname } = request.nextUrl;
 
-  // Dışlanan yollar (public klasöründeki her şey ve api istekleri)
-  if (
-    pathname.includes('.') || // matches files (e.g. .mp4, .png, .jpg)
-    pathname.startsWith('/_next') ||
-    pathname.startsWith('/api')
-  ) {
-    return;
-  }
+    if (
+      pathname.includes('.') || 
+      pathname.startsWith('/_next') ||
+      pathname.startsWith('/api')
+    ) {
+      return NextResponse.next();
+    }
 
-  // Path'in başında desteklenen bir dil kodu var mı kontrol et
-  const pathnameIsMissingLocale = locales.every(
-    (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
-  );
+    const pathnameIsMissingLocale = locales.every(
+      (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
+    );
 
-  // Eğer dil kodu yoksa yönlendir
-  if (pathnameIsMissingLocale) {
-    const locale = defaultLocale;
-    return NextResponse.redirect(new URL(`/${locale}${pathname === '/' ? '' : pathname}`, request.url));
+    if (pathnameIsMissingLocale) {
+      const locale = defaultLocale;
+      const url = request.nextUrl.clone();
+      url.pathname = `/${locale}${pathname === '/' ? '' : pathname}`;
+      return NextResponse.redirect(url);
+    }
+
+    return NextResponse.next();
+  } catch (err) {
+    console.error("Middleware Error:", err);
+    return NextResponse.next();
   }
 }
 
