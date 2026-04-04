@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "announcements": "Duyurular",
+    "events": "Etkinliklerimiz",
+    "members": "Üyelerimiz",
+    "gallery": "Galeri",
+    "contact": "İletişim",
+    "dropdown": {
+      "board": "Yönetim Kurulu",
+      "president_message": "Başkanın Mesajı",
+      "what_is_skal": "Skål Nedir?",
+      "skal_izmir": "Skål International İzmir",
+      "usdf": "USDF",
+      "young_skal": "Young Skål",
+      "florimond": "Florimond Volckaert Fonu",
+      "skal_history": "83. Skål International",
+      "announcements": "Duyurular & Haberler",
+      "skal_life": "Skål Life"
+    }
+  },
+  "hero": {
+    "subtitle": "Skål International, 1934'ten Beri",
+    "title": "Tüm Dünyadaki Seyahat ve Turizm Profesyonellerini Bir Araya Getiriyor."
+  },
+  "stats": {
+    "year": {
+      "value": "1934",
+      "label": "Kuruluş",
+      "desc": "Skål International Paris'te kuruldu."
+    },
+    "clubs": {
+      "value": "294",
+      "label": "Dünya Çapında Kulüp",
+      "desc": "75'ten fazla ülkede yer alan kulüpler ve üyeler."
+    },
+    "countries": {
+      "value": "75",
+      "label": "Ülke",
+      "desc": "Kıtaları aşan global ağımız."
+    },
+    "members": {
+      "value": "12.500",
+      "label": "Üye",
+      "desc": "Bağlantıda olan seyahat ve turizm profesyonelleri (yaklaşık)."
+    },
+    "button": "Hakkımızda"
+  },
+  "izmir": {
+    "title": "Ege'nin İncisi İzmir",
+    "p1": "8500 yıllık tarihi, eşsiz doğası ve bitmeyen enerjisiyle İzmir, Skål ruhunun en canlı yaşandığı duraklardan biri.",
+    "p2": "Antik çağlardan bugüne bir ticaret ve kültür merkezi olan İzmir; Efes’ten Bergama’ya, Kemeraltı’nın dar sokaklarından modern Kordon boyuna kadar her köşesinde misafirperverliği yaşatıyor.",
+    "p3": "Skål International İzmir olarak, şehrimizin bu köklü turizm potansiyelini küresel dostluk ağımızla birleştiriyor, 'Ege’nin İncisi'ni dünyaya tanıtmaya devam ediyoruz."
+  },
+  "network": {
+    "title": "Dostlukla Büyüyen Turizm Ağı",
+    "desc": "Skål International İzmir Kulübü, sektörün yerel profesyonellerini bir araya getirerek sadece bir iş ağı değil, aynı zamanda İzmir turizminin geleceğini şekillendiren bir aile ortamı sunar.",
+    "desc2": "Şehrimizin sürdürülebilir turizm hedeflerine katkı sağlıyor, üyelerimizle birlikte İzmir’in değerlerini küresel platformlarda temsil ediyoruz.",
+    "button": "Tüm Üyelerimiz"
+  },
+  "collaborations": {
+    "title": "Skål International | İş Birlikleri",
+    "desc": "Seyahat ve turizm sektörünün önde gelen kuruluşlarıyla olan güçlü bağlarımızdan ve iş birliklerimizden gurur duyuyoruz."
+  },
+  "events_section": {
+    "title": "Etkinliklerimizden Haberdar Olun",
+    "desc": "'Business Lunch' etkinliklerimizden iş çıkışı 'Happy Hour' buluşmalarımıza kadar; Skål International İzmir üyeleriyle bir araya geldiğimiz her an, yeni bir iş birliğinin ve güçlü bir dostluğun başlangıcı. Kulüp içi sinerjimizi paylaştığımız bu özel anları ve güncel programımızı kaçırmayın.",
+    "button": "Etkinliklerimiz"
+  },
+  "contact": {
+    "title": "Bizimle Bağlantı Kurun",
+    "desc": "Sorularınız, önerileriniz veya üyelik başvurularınız için Skål International İzmir Yönetim Kurulu ve sekreteryamızla iletişime geçebilirsiniz. Taleplerinize en kısa sürede dönüş sağlanacaktır.",
+    "formButton": "Talep Formu"
+  },
+  "footer": {
+    "address": "İsmet Kaptan Mahallesi, Çankaya İş Merkezi\nNo.90 Kat:5 D: 507 Konak / İZMİR",
+    "button": "Bize Ulaşın"
+  }
+}

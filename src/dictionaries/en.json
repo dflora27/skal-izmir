@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "announcements": "Announcements",
+    "events": "Events",
+    "members": "Members",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "dropdown": {
+      "board": "Board of Directors",
+      "president_message": "President's Message",
+      "what_is_skal": "What is Skål?",
+      "skal_izmir": "Skål International Izmir",
+      "usdf": "USDF",
+      "young_skal": "Young Skål",
+      "florimond": "Florimond Volckaert Fund",
+      "skal_history": "83. Skål International",
+      "announcements": "Announcements & News",
+      "skal_life": "Skål Life"
+    }
+  },
+  "hero": {
+    "subtitle": "Since 1934",
+    "title": "Bringing Together Travel and Tourism Professionals Worldwide."
+  },
+  "stats": {
+    "year": {
+      "value": "1934",
+      "label": "Founded",
+      "desc": "Skål International was founded in Paris."
+    },
+    "clubs": {
+      "value": "294",
+      "label": "Clubs Worldwide",
+      "desc": "Clubs and members located in over 75 countries."
+    },
+    "countries": {
+      "value": "75",
+      "label": "Countries",
+      "desc": "Our global network spanning continents."
+    },
+    "members": {
+      "value": "12.500",
+      "label": "Members",
+      "desc": "Connected travel and tourism professionals (approximate)."
+    },
+    "button": "About Us"
+  },
+  "izmir": {
+    "title": "Izmir, The Pearl of the Aegean",
+    "p1": "With its 8500-year history, unique nature, and endless energy, Izmir is one of the most vibrant stops where the Skål spirit lives.",
+    "p2": "A center of trade and culture from ancient times to the present, Izmir keeps hospitality alive in every corner, from Ephesus to Pergamon, from the narrow streets of Kemeraltı to the modern coast of Kordon.",
+    "p3": "As Skål Izmir, we blend this deep-rooted tourism potential of our city with our global friendship network, continuing to introduce the 'Pearl of the Aegean' to the world."
+  },
+  "network": {
+    "title": "A Tourism Network Growing With Friendship",
+    "desc": "By bringing together the local professionals of the industry, Skål Izmir Club offers not just a business network, but a family environment shaping the future of Izmir tourism.",
+    "desc2": "We contribute to our city's sustainable tourism goals and represent Izmir's values on global platforms together with our members.",
+    "button": "All Members"
+  },
+  "collaborations": {
+    "title": "Skål International | Collaborations",
+    "desc": "We are proud of our strong ties and collaborations with leading organizations in the travel and tourism industry."
+  },
+  "events_section": {
+    "title": "Stay Updated on Our Events",
+    "desc": "From our traditional 'Business Lunch' events to after-work 'Happy Hour' gatherings; every moment we come together with Skål Izmir members is the beginning of a new collaboration and strong friendship. Don't miss these special moments where we share our club synergy and our current program.",
+    "button": "Our Events"
+  },
+  "contact": {
+    "title": "Connect With Us",
+    "desc": "For your questions, suggestions, or membership applications, you can contact the Skål Izmir Board of Directors and our secretariat. We will respond to your requests as soon as possible.",
+    "formButton": "Request Form"
+  },
+  "footer": {
+    "address": "İsmet Kaptan Mahallesi, Çankaya İş Merkezi\nNo.90 Floor:5 D: 507 Konak / İZMİR",
+    "button": "Contact Us"
+  }
+}
