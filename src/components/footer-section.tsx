@@ -2,6 +2,8 @@
 
 import { motion } from 'framer-motion';
 import React from 'react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const AnimatedContainer = ({ children, className, delay = 0 }: { children: React.ReactNode; className?: string; delay?: number; }) => {
 	return (
@@ -18,6 +20,59 @@ const AnimatedContainer = ({ children, className, delay = 0 }: { children: React
 };
 
 export function Footer() {
+	const pathname = usePathname();
+	const langMatch = pathname.match(/^\/(tr|en|es)(\/|$)/);
+	const lang = langMatch ? langMatch[1] : 'tr';
+	
+	const dict = {
+		tr: {
+			corp: 'Kurumsal',
+			links: {
+				board: 'Yönetim Kurulu', president: 'Başkanın Mesajı', what: 'Skål Nedir?', izmir: 'Skål International İzmir', usdf: 'USDF',
+				events: 'Etkinlikler', members: 'Üye Ağı', young: 'Young Skål', florimond: 'Florimond Fund', contact: 'İletişim'
+			},
+			quick: 'Hızlı Erişim',
+			news: 'Güncel Haberler',
+			newsDesc: 'E-bültenimize abone olarak etkinliklerimizden ilk siz haberdar olun.',
+			email: 'E-posta adresiniz',
+			subscribe: 'Abone Ol',
+			rights: 'Tüm hakları saklıdır.',
+			privacy: 'Gizlilik Politikası',
+			terms: 'Kullanım Şartları'
+		},
+		en: {
+			corp: 'Corporate',
+			links: {
+				board: 'Board of Directors', president: 'President\'s Message', what: 'What is Skål?', izmir: 'Skål International Izmir', usdf: 'USDF',
+				events: 'Events', members: 'Member Network', young: 'Young Skål', florimond: 'Florimond Fund', contact: 'Contact'
+			},
+			quick: 'Quick Access',
+			news: 'Latest News',
+			newsDesc: 'Subscribe to our newsletter to be the first to know about our events.',
+			email: 'Email address',
+			subscribe: 'Subscribe',
+			rights: 'All rights reserved.',
+			privacy: 'Privacy Policy',
+			terms: 'Terms of Use'
+		},
+		es: {
+			corp: 'Corporativo',
+			links: {
+				board: 'Junta Directiva', president: 'Mensaje del Presidente', what: '¿Qué es Skål?', izmir: 'Skål Esmirna', usdf: 'USDF',
+				events: 'Eventos', members: 'Red de Miembros', young: 'Young Skål', florimond: 'Fondo Florimond', contact: 'Contacto'
+			},
+			quick: 'Acceso Rápido',
+			news: 'Noticias Recientes',
+			newsDesc: 'Suscríbase a nuestro boletín para ser el primero en enterarse de nuestros eventos.',
+			email: 'Correo electrónico',
+			subscribe: 'Suscribirse',
+			rights: 'Todos los derechos reservados.',
+			privacy: 'Política de Privacidad',
+			terms: 'Términos de Uso'
+		}
+	};
+	const t = dict[lang as keyof typeof dict] || dict.en;
+
 	return (
 		<footer className="w-full relative bg-[#FDFDFD] border-t border-slate-200 px-6 py-20 lg:py-32">
 			<div className="container mx-auto px-6 md:px-12">
@@ -41,44 +96,44 @@ export function Footer() {
 					</AnimatedContainer>
 
 					<AnimatedContainer delay={0.1} className="flex flex-col gap-6">
-						<h3 className="text-xs uppercase tracking-[0.2em] font-bold text-[#0A192F]">Kurumsal</h3>
+						<h3 className="text-xs uppercase tracking-[0.2em] font-bold text-[#0A192F]">{t.corp}</h3>
 						<ul className="text-slate-500 font-medium text-sm space-y-4">
-							<li><a href="#" className="hover:text-blue-600 transition-colors">Yönetim Kurulu</a></li>
-							<li><a href="#" className="hover:text-blue-600 transition-colors">Başkanın Mesajı</a></li>
-							<li><a href="#" className="hover:text-blue-600 transition-colors">Skål Nedir?</a></li>
-							<li><a href="#" className="hover:text-blue-600 transition-colors">Skål International İzmir</a></li>
-							<li><a href="#" className="hover:text-blue-600 transition-colors">USDF</a></li>
+							<li><Link href={`/${lang}/board`} className="hover:text-blue-600 transition-colors">{t.links.board}</Link></li>
+							<li><Link href={`/${lang}/president-message`} className="hover:text-blue-600 transition-colors">{t.links.president}</Link></li>
+							<li><Link href={`/${lang}/what-is-skal`} className="hover:text-blue-600 transition-colors">{t.links.what}</Link></li>
+							<li><Link href={`/${lang}/skal-izmir`} className="hover:text-blue-600 transition-colors">{t.links.izmir}</Link></li>
+							<li><Link href={`/${lang}/usdf`} className="hover:text-blue-600 transition-colors">{t.links.usdf}</Link></li>
 						</ul>
 					</AnimatedContainer>
 
 					<AnimatedContainer delay={0.2} className="flex flex-col gap-6">
-						<h3 className="text-xs uppercase tracking-[0.2em] font-bold text-[#0A192F]">Hızlı Erişim</h3>
+						<h3 className="text-xs uppercase tracking-[0.2em] font-bold text-[#0A192F]">{t.quick}</h3>
 						<ul className="text-slate-500 font-medium text-sm space-y-4">
-							<li><a href="/#events" className="hover:text-blue-600 transition-colors">Etkinlikler</a></li>
-							<li><a href="/#members" className="hover:text-blue-600 transition-colors">Üye Ağı ve İş Birlikleri</a></li>
-							<li><a href="#" className="hover:text-blue-600 transition-colors">Young Skål</a></li>
-							<li><a href="#" className="hover:text-blue-600 transition-colors">Florimund Volckaert Fund</a></li>
-							<li><a href="/#contact" className="hover:text-blue-600 transition-colors">İletişim</a></li>
+							<li><Link href={`/${lang}/events`} className="hover:text-blue-600 transition-colors">{t.links.events}</Link></li>
+							<li><Link href={`/${lang}/members`} className="hover:text-blue-600 transition-colors">{t.links.members}</Link></li>
+							<li><Link href={`/${lang}/young-skal`} className="hover:text-blue-600 transition-colors">{t.links.young}</Link></li>
+							<li><Link href={`/${lang}/florimond-volckaert-fund`} className="hover:text-blue-600 transition-colors">{t.links.florimond}</Link></li>
+							<li><Link href={`/${lang}/contact`} className="hover:text-blue-600 transition-colors">{t.links.contact}</Link></li>
 						</ul>
 					</AnimatedContainer>
 
 					<AnimatedContainer delay={0.3} className="flex flex-col gap-6">
-						<h3 className="text-xs uppercase tracking-[0.2em] font-bold text-[#0A192F]">Güncel Haberler</h3>
-						<p className="text-slate-500 text-sm leading-relaxed max-w-xs">E-bültenimize abone olarak etkinliklerimizden ilk siz haberdar olun.</p>
+						<h3 className="text-xs uppercase tracking-[0.2em] font-bold text-[#0A192F]">{t.news}</h3>
+						<p className="text-slate-500 text-sm leading-relaxed max-w-xs">{t.newsDesc}</p>
 						<div className="flex w-full mt-2">
-							<input type="email" placeholder="E-posta adresiniz" className="flex-1 border-b border-l border-t border-slate-200 rounded-l-lg px-4 py-3 text-sm outline-none focus:border-blue-300" />
-							<button className="bg-[#0A192F] text-white px-4 py-3 rounded-r-lg text-xs uppercase tracking-widest font-bold hover:bg-blue-600 transition-colors">Abone Ol</button>
+							<input type="email" placeholder={t.email} className="flex-1 border-b border-l border-t border-slate-200 rounded-l-lg px-4 py-3 text-sm outline-none focus:border-blue-300" />
+							<button className="bg-[#0A192F] text-white px-4 py-3 rounded-r-lg text-xs uppercase tracking-widest font-bold hover:bg-blue-600 transition-colors">{t.subscribe}</button>
 						</div>
 					</AnimatedContainer>
 				</div>
 
 				<div className="w-full border-t border-slate-200 mt-24 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
 					<p className="text-slate-400 text-xs">
-						{new Date().getFullYear()} © Skål International İzmir. Tüm hakları saklıdır.
+						{new Date().getFullYear()} © Skål International İzmir. {t.rights}
 					</p>
 					<div className="flex gap-6 text-slate-400 text-xs font-semibold">
-						<a href="#" className="hover:text-[#0A192F] transition-colors">Gizlilik Politikası</a>
-						<a href="#" className="hover:text-[#0A192F] transition-colors">Kullanım Şartları</a>
+						<Link href={`/${lang}`} className="hover:text-[#0A192F] transition-colors">{t.privacy}</Link>
+						<Link href={`/${lang}`} className="hover:text-[#0A192F] transition-colors">{t.terms}</Link>
 					</div>
 				</div>
 

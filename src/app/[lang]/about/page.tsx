@@ -21,15 +21,15 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: 't
   const dict = await getDictionary(lang);
 
   const subpages = [
-    { title: "Yönetim Kurulu", desc: "İzmir'i dünyaya tanıtan, Skål International İzmir'in vizyoner yönetim kadrosu.", href: `/${lang}/board` },
-    { title: "Başkanın Mesajı", desc: "Skål International İzmir Başkanı'nın sektöre, üyelerimize ve geleceğe dair mesajı.", href: `/${lang}/president-message` },
-    { title: "Skål Nedir?", desc: "1934'te kurulan, dünyanın en büyük uluslararası konaklama ve turizm ağının hikayesi.", href: `/${lang}/what-is-skal` },
-    { title: "Skål International İzmir", desc: "Ege'nin turizm potansiyelini küresel dostluk ağıyla birleştiren kulübümüzün hedefleri.", href: `/${lang}/skal-izmir` },
-    { title: "USDF", desc: "Uluslararası Skål Dernekleri Federasyonu (USDF) ve Türkiye organizasyon yapısı.", href: `/${lang}/usdf` },
-    { title: "Young Skål", desc: "Turizmin geleceği olan gençlerimiz için oluşturulan dinamik destek organizasyonumuz.", href: `/${lang}/young-skal` },
-    { title: "Florimund Volckaert Fund", desc: "Skål üyelerine zor zamanlarında destek olmak amacıyla kurulan küresel yardım fonu.", href: `/${lang}/florimond-volckaert-fund` },
-    { title: "Skål Life", desc: "İzmir turizmine yön veren yayınımız, kulüp üyelerimizin makaleleri ve sektör dergimiz.", href: `/${lang}/skal-life` },
-    { title: "83. Skål International World Congress", desc: "İzmir'de düzenlenecek olan dev uluslararası Skål Kongresi detayları.", href: `/${lang}/world-congress` }
+    { title: dict.about?.board?.title || "Yönetim Kurulu", desc: dict.about?.board?.desc || "İzmir'i dünyaya tanıtan, Skål International İzmir'in vizyoner yönetim kadrosu.", href: `/${lang}/board` },
+    { title: dict.about?.president?.title || "Başkanın Mesajı", desc: dict.about?.president?.desc || "Skål International İzmir Başkanı'nın sektöre, üyelerimize ve geleceğe dair mesajı.", href: `/${lang}/president-message` },
+    { title: dict.about?.what_is?.title || "Skål Nedir?", desc: dict.about?.what_is?.desc || "1934'te kurulan, dünyanın en büyük uluslararası konaklama ve turizm ağının hikayesi.", href: `/${lang}/what-is-skal` },
+    { title: dict.about?.skal_izmir?.title || "Skål International İzmir", desc: dict.about?.skal_izmir?.desc || "Ege'nin turizm potansiyelini küresel dostluk ağıyla birleştiren kulübümüzün hedefleri.", href: `/${lang}/skal-izmir` },
+    { title: dict.about?.usdf?.title || "USDF", desc: dict.about?.usdf?.desc || "Uluslararası Skål Dernekleri Federasyonu (USDF) ve Türkiye organizasyon yapısı.", href: `/${lang}/usdf` },
+    { title: dict.about?.young?.title || "Young Skål", desc: dict.about?.young?.desc || "Turizmin geleceği olan gençlerimiz için oluşturulan dinamik destek organizasyonumuz.", href: `/${lang}/young-skal` },
+    { title: dict.about?.florimond?.title || "Florimond Volckaert Fund", desc: dict.about?.florimond?.desc || "Skål üyelerine zor zamanlarında destek olmak amacıyla kurulan küresel yardım fonu.", href: `/${lang}/florimond-volckaert-fund` },
+    { title: dict.about?.skal_life?.title || "Skål Life", desc: dict.about?.skal_life?.desc || "İzmir turizmine yön veren yayınımız, kulüp üyelerimizin makaleleri ve sektör dergimiz.", href: `/${lang}/skal-life` },
+    { title: dict.about?.congress?.title || "83. Skål International World Congress", desc: dict.about?.congress?.desc || "İzmir'de düzenlenecek olan dev uluslararası Skål Kongresi detayları.", href: `/${lang}/world-congress` }
   ];
 
   return (
@@ -39,9 +39,9 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: 't
       <section className="pt-40 pb-20 bg-white border-b border-slate-100">
         <div className="container mx-auto px-6 md:px-12 text-center flex flex-col items-center">
           <img src="/logo.png" alt="Skål Logo" className="h-12 w-auto mb-6 opacity-80 mix-blend-multiply" />
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif text-[#0A192F] mb-6 leading-tight">Hakkımızda</h1>
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif text-[#0A192F] mb-6 leading-tight">{dict.about?.page?.title || 'Hakkımızda'}</h1>
           <p className="text-xl md:text-2xl text-slate-500 font-light max-w-2xl mx-auto leading-relaxed">
-            Seyahat ve turizm profesyonellerini birleştiren dünyanın en köklü dostluk ağını keşfedin.
+            {dict.about?.page?.desc || 'Seyahat ve turizm profesyonellerini birleştiren dünyanın en köklü dostluk ağını keşfedin.'}
           </p>
         </div>
       </section>

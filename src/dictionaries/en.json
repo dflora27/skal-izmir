@@ -15,7 +15,7 @@
       "usdf": "USDF",
       "young_skal": "Young Skål",
       "florimond": "Florimond Volckaert Fund",
-      "skal_history": "83. Skål International",
+      "skal_history": "83rd Skål International",
       "announcements": "Announcements & News",
       "skal_life": "Skål Life"
     }
@@ -46,6 +46,54 @@
       "desc": "Connected travel and tourism professionals (approximate)."
     },
     "button": "About Us"
+  },
+  "about": {
+    "page": {
+      "title": "About Us",
+      "desc": "Discover the deepest-rooted friendship network bringing together travel and tourism professionals."
+    },
+    "board": {
+      "title": "Board of Directors",
+      "desc": "The visionary board of Skål International Izmir, introducing Izmir to the world."
+    },
+    "president": {
+      "title": "President's Message",
+      "desc": "A message from the President of Skål International Izmir regarding our industry, members, and future."
+    },
+    "what_is": {
+      "title": "What is Skål?",
+      "desc": "The story of the world's largest international hospitality and tourism network founded in 1934."
+    },
+    "skal_izmir": {
+      "title": "Skål International Izmir",
+      "desc": "Our club's goals blending the Aegean's tourism potential with a global friendship network."
+    },
+    "usdf": {
+      "title": "USDF",
+      "desc": "International Federation of Skål Clubs (USDF) and its organizational structure in Turkey."
+    },
+    "young": {
+      "title": "Young Skål",
+      "desc": "Our dynamic support organization created for the youth, the future of tourism."
+    },
+    "florimond": {
+      "title": "Florimond Volckaert Fund",
+      "desc": "The global relief fund established to support Skål members in their difficult times."
+    },
+    "skal_life": {
+      "title": "Skål Life",
+      "desc": "Our publication guiding Izmir tourism, featuring articles by our club members and industry magazine."
+    },
+    "congress": {
+      "title": "83rd Skål International World Congress in Izmir",
+      "desc": "Details of the giant international Skål Congress to be held in Izmir."
+    }
+  },
+  "world_congress_cta": {
+    "titlePrefix": "83rd Skål International",
+    "titleHighlight": "World Congress in Izmir",
+    "desc": "Discover the unique atmosphere, memories, and sessions of this giant global gathering held in Izmir on our dedicated congress page.",
+    "button": "Explore"
   },
   "izmir": {
     "title": "Izmir, The Pearl of the Aegean",

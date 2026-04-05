@@ -15,7 +15,7 @@
       "usdf": "USDF",
       "young_skal": "Young Skål",
       "florimond": "Fondo Florimond Volckaert",
-      "skal_history": "83. Skål International",
+      "skal_history": "83º Skål International",
       "announcements": "Anuncios y Noticias",
       "skal_life": "Skål Life"
     }
@@ -46,6 +46,54 @@
       "desc": "Profesionales de viajes y turismo conectados (aproximadamente)."
     },
     "button": "Sobre Nosotros"
+  },
+  "about": {
+    "page": {
+      "title": "Sobre Nosotros",
+      "desc": "Descubre la red de amistad más arraigada que reúne a los profesionales de los viajes y el turismo."
+    },
+    "board": {
+      "title": "Junta Directiva",
+      "desc": "La junta visionaria de Skål Esmirna, presentando Esmirna al mundo."
+    },
+    "president": {
+      "title": "Mensaje del Presidente",
+      "desc": "Un mensaje del Presidente de Skål Esmirna sobre nuestra industria y el futuro."
+    },
+    "what_is": {
+      "title": "¿Qué es Skål?",
+      "desc": "La historia de la mayor red internacional de hostelería y turismo, fundada en 1934."
+    },
+    "skal_izmir": {
+      "title": "Skål International Esmirna",
+      "desc": "Nuestros objetivos para combinar el potencial turístico del Egeo con una red de amistad global."
+    },
+    "usdf": {
+      "title": "USDF",
+      "desc": "La Federación Internacional de Clubes Skål y su estructura organizativa en Turquía."
+    },
+    "young": {
+      "title": "Young Skål",
+      "desc": "Nuestra dinámica organización de apoyo a los jóvenes, el futuro del turismo."
+    },
+    "florimond": {
+      "title": "Fondo Florimond",
+      "desc": "El fondo de ayuda global para apoyar a los miembros de Skål en tiempos difíciles."
+    },
+    "skal_life": {
+      "title": "Skål Life",
+      "desc": "Nuestra publicación que guía el turismo de Esmirna, con artículos de nuestros miembros."
+    },
+    "congress": {
+      "title": "83º Congreso Mundial de Skål International en Esmirna",
+      "desc": "Detalles del gran Congreso Internacional Skål que se celebrará en Esmirna."
+    }
+  },
+  "world_congress_cta": {
+    "titlePrefix": "83º Skål International",
+    "titleHighlight": "Congreso Mundial en Esmirna",
+    "desc": "Descubra el ambiente único, los recuerdos y las sesiones de este gigantesco encuentro mundial en nuestra página dedicada.",
+    "button": "Explorar"
   },
   "izmir": {
     "title": "Esmirna, La Perla del Egeo",

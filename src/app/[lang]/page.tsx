@@ -217,14 +217,14 @@ export default async function Home({ params }: { params: Promise<{ lang: 'tr' | 
            <div className="md:w-1/2 p-12 lg:p-24 flex flex-col justify-center text-white bg-gradient-to-bl from-[#241744]/40 to-[#1B123A]">
               <span className="w-12 h-1 bg-[#F87498] rounded-full mb-8"></span>
               <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold leading-tight mb-6 tracking-tight drop-shadow-xl pr-4">
-                 83. Skål International <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-[#F87498] italic tracking-tighter">World Congress 2024 İzmir</span>
+                 {dict.world_congress_cta?.titlePrefix || '83. Skål International'} <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-[#F87498] italic tracking-tighter">{dict.world_congress_cta?.titleHighlight || 'World Congress 2024 İzmir'}</span>
               </h2>
               <p className="text-lg lg:text-xl text-blue-100/70 mb-12 font-light leading-relaxed max-w-xl">
-                 İzmir'de gerçekleşen bu dev küresel buluşmanın eşsiz atmosferini, anılarını ve oturumlarını özel kongre sayfamızda keşfedin.
+                 {dict.world_congress_cta?.desc || 'İzmir\'de gerçekleşen bu dev küresel buluşmanın eşsiz atmosferini, anılarını ve oturumlarını özel kongre sayfamızda keşfedin.'}
               </p>
               
               <Link href={`/${lang}/world-congress`} className="group flex items-center gap-6 w-max rounded-full pl-8 pr-3 py-3 bg-white/10 hover:bg-white text-white hover:text-[#0A192F] transition-all duration-500 backdrop-blur-md shadow-[0_0_30px_rgba(248,116,152,0.15)] border border-white/20">
-                 <span className="font-bold tracking-widest uppercase text-sm">{lang === 'tr' ? 'Keşfet' : lang === 'es' ? 'Explorar' : 'Explore'}</span>
+                 <span className="font-bold tracking-widest uppercase text-sm">{dict.world_congress_cta?.button || 'Keşfet'}</span>
                  <div className="w-12 h-12 rounded-full bg-[#F87498] flex items-center justify-center text-white group-hover:scale-110 transition-transform shadow-lg">
                     <svg className="w-5 h-5 transform -rotate-45" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                  </div>

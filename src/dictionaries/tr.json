@@ -47,6 +47,54 @@
     },
     "button": "Hakkımızda"
   },
+  "about": {
+    "page": {
+      "title": "Hakkımızda",
+      "desc": "Seyahat ve turizm profesyonellerini birleştiren dünyanın en köklü dostluk ağını keşfedin."
+    },
+    "board": {
+      "title": "Yönetim Kurulu",
+      "desc": "İzmir'i dünyaya tanıtan, Skål International İzmir'in vizyoner yönetim kadrosu."
+    },
+    "president": {
+      "title": "Başkanın Mesajı",
+      "desc": "Skål International İzmir Başkanı'nın sektöre, üyelerimize ve geleceğe dair mesajı."
+    },
+    "what_is": {
+      "title": "Skål Nedir?",
+      "desc": "1934'te kurulan, dünyanın en büyük uluslararası konaklama ve turizm ağının hikayesi."
+    },
+    "skal_izmir": {
+      "title": "Skål International İzmir",
+      "desc": "Ege'nin turizm potansiyelini küresel dostluk ağıyla birleştiren kulübümüzün hedefleri."
+    },
+    "usdf": {
+      "title": "USDF",
+      "desc": "Uluslararası Skål Dernekleri Federasyonu (USDF) ve Türkiye organizasyon yapısı."
+    },
+    "young": {
+      "title": "Young Skål",
+      "desc": "Turizmin geleceği olan gençlerimiz için oluşturulan dinamik destek organizasyonumuz."
+    },
+    "florimond": {
+      "title": "Florimond Volckaert Fonu",
+      "desc": "Skål üyelerine zor zamanlarında destek olmak amacıyla kurulan küresel yardım fonu."
+    },
+    "skal_life": {
+      "title": "Skål Life",
+      "desc": "İzmir turizmine yön veren yayınımız, kulüp üyelerimizin makaleleri ve sektör dergimiz."
+    },
+    "congress": {
+      "title": "83. Skål International World Congress",
+      "desc": "İzmir'de düzenlenecek olan dev uluslararası Skål Kongresi detayları."
+    }
+  },
+  "world_congress_cta": {
+    "titlePrefix": "83. Skål International",
+    "titleHighlight": "World Congress 2024 İzmir",
+    "desc": "İzmir'de gerçekleşen bu dev küresel buluşmanın eşsiz atmosferini, anılarını ve oturumlarını özel kongre sayfamızda keşfedin.",
+    "button": "Keşfet"
+  },
   "izmir": {
     "title": "Ege'nin İncisi İzmir",
     "p1": "8500 yıllık tarihi, eşsiz doğası ve bitmeyen enerjisiyle İzmir, Skål ruhunun en canlı yaşandığı duraklardan biri.",
