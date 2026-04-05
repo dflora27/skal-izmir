@@ -813,21 +813,6 @@ export const members: Member[] = [
     }
   },
   {
-    "id": "mine-gunes-kaya",
-    "name": "MİNE GÜNEŞ KAYA",
-    "role": "-",
-    "company": "-",
-    "categories": [],
-    "photo": "/members/mine-gunes-kaya.jpg",
-    "companyLogo": "/members/mine-gunes-kaya-is.png",
-    "desc": "Skål International İzmir üyesi olan MİNE GÜNEŞ KAYA, turizm sektöründeki engin tecrübesiyle İzmir turizmine değer katan seçkin profesyonellerimizden biridir.",
-    "contact": {
-      "phone": "0 533 567 34 00",
-      "email": "mine.gguness@gmail.com",
-      "website": "-"
-    }
-  },
-  {
     "id": "muhammet-akif-alsharo",
     "name": "MUHAMMET AKİF ALSHARO",
     "role": "-",
