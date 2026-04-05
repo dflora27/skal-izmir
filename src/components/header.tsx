@@ -129,7 +129,7 @@ export function Header({ dict, lang }: HeaderProps) {
       </div>
       
       {/* Mobile Sidebar overlay */}
-      <div className={`fixed inset-0 bg-[#0A192F]/95 backdrop-blur-lg z-40 transition-all duration-500 xl:hidden flex flex-col justify-center items-center ${mobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
+      <div className={`fixed inset-0 bg-[#0A192F]/95 backdrop-blur-lg z-40 transition-all duration-500 xl:hidden flex flex-col justify-center items-center ${mobileMenuOpen ? 'opacity-100 visible pointer-events-auto' : 'opacity-0 invisible pointer-events-none'}`}>
          <div className="absolute top-10 w-full flex justify-center pb-8 border-b border-white/10">
             <img src="/logo-60.png" alt="Logo" className="w-48 h-auto brightness-0 invert drop-shadow-lg" />
          </div>
