@@ -103,13 +103,13 @@ export function Header({ dict, lang }: HeaderProps) {
           <div className="h-6 w-px bg-slate-200/50 ml-4 hidden lg:block"></div>
           <div className="relative group p-2 pb-4 -mb-4 z-20 pl-2 hidden xl:block">
             <button className="flex items-center justify-center p-2 rounded-full border border-slate-200 hover:bg-slate-50 transition-colors">
-              <Image src={currentFlagSrc} alt={lang} width={24} height={24} className="w-5 h-5 md:w-6 md:h-6 object-contain drop-shadow-sm" />
+              <img src={currentFlagSrc} alt={lang} className="w-5 h-5 md:w-6 md:h-6 object-contain drop-shadow-sm" />
             </button>
             <div className={`absolute top-full right-0 ${scrolled ? 'mt-4' : 'mt-2'} w-14 bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top-right rounded-2xl overflow-hidden border border-slate-100`}>
                <div className="flex flex-col py-1">
-                 <Link href={switchLang('tr')} className={`px-4 py-3 flex items-center justify-center hover:bg-slate-50 transition-colors ${lang === 'tr' ? 'bg-blue-50/50' : ''}`}><Image src="/turkey.png" alt="TR" width={24} height={24} className="w-6 h-6 object-contain drop-shadow-sm hover:scale-110 transition-transform" /></Link>
-                 <Link href={switchLang('en')} className={`px-4 py-3 flex items-center justify-center hover:bg-slate-50 transition-colors ${lang === 'en' ? 'bg-blue-50/50' : ''}`}><Image src="/united-kingdom.png" alt="EN" width={24} height={24} className="w-6 h-6 object-contain drop-shadow-sm hover:scale-110 transition-transform" /></Link>
-                 <Link href={switchLang('es')} className={`px-4 py-3 flex items-center justify-center hover:bg-slate-50 transition-colors ${lang === 'es' ? 'bg-blue-50/50' : ''}`}><Image src="/spain.png" alt="ES" width={24} height={24} className="w-6 h-6 object-contain drop-shadow-sm hover:scale-110 transition-transform" /></Link>
+                 <Link href={switchLang('tr')} className={`px-4 py-3 flex items-center justify-center hover:bg-slate-50 transition-colors ${lang === 'tr' ? 'bg-blue-50/50' : ''}`}><img src="/turkey.png" alt="TR" className="w-6 h-6 object-contain drop-shadow-sm hover:scale-110 transition-transform" /></Link>
+                 <Link href={switchLang('en')} className={`px-4 py-3 flex items-center justify-center hover:bg-slate-50 transition-colors ${lang === 'en' ? 'bg-blue-50/50' : ''}`}><img src="/united-kingdom.png" alt="EN" className="w-6 h-6 object-contain drop-shadow-sm hover:scale-110 transition-transform" /></Link>
+                 <Link href={switchLang('es')} className={`px-4 py-3 flex items-center justify-center hover:bg-slate-50 transition-colors ${lang === 'es' ? 'bg-blue-50/50' : ''}`}><img src="/spain.png" alt="ES" className="w-6 h-6 object-contain drop-shadow-sm hover:scale-110 transition-transform" /></Link>
                </div>
             </div>
           </div>
@@ -131,17 +131,16 @@ export function Header({ dict, lang }: HeaderProps) {
       {/* Mobile Sidebar overlay */}
       <div className={`fixed inset-0 bg-[#0A192F]/95 backdrop-blur-lg z-40 transition-all duration-500 xl:hidden flex flex-col justify-center items-center ${mobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
          <div className="absolute top-10 w-full flex justify-center pb-8 border-b border-white/10">
-            <Image src="/logo-60.png" alt="Logo" width={200} height={60} className="brightness-0 invert drop-shadow-lg" />
+            <img src="/logo-60.png" alt="Logo" className="w-48 h-auto brightness-0 invert drop-shadow-lg" />
          </div>
          <nav className="flex flex-col items-center gap-8 text-white text-xl font-medium tracking-widest uppercase mt-20 overflow-y-auto max-h-[80vh] w-full px-8 pb-32">
-            
             {/* Mobile Language Selector */}
             <div className="flex gap-4 mb-4 p-2 bg-white/5 rounded-2xl border border-white/10 shrink-0">
-               <Link onClick={() => setMobileMenuOpen(false)} href={switchLang('tr')} className={`p-3 rounded-xl transition-colors ${lang === 'tr' ? 'bg-white/20' : 'hover:bg-white/10'}`}><Image src="/turkey.png" alt="TR" width={32} height={32} className="w-8 h-8 object-contain drop-shadow-lg" /></Link>
-               <Link onClick={() => setMobileMenuOpen(false)} href={switchLang('en')} className={`p-3 rounded-xl transition-colors ${lang === 'en' ? 'bg-white/20' : 'hover:bg-white/10'}`}><Image src="/united-kingdom.png" alt="EN" width={32} height={32} className="w-8 h-8 object-contain drop-shadow-lg" /></Link>
-               <Link onClick={() => setMobileMenuOpen(false)} href={switchLang('es')} className={`p-3 rounded-xl transition-colors ${lang === 'es' ? 'bg-white/20' : 'hover:bg-white/10'}`}><Image src="/spain.png" alt="ES" width={32} height={32} className="w-8 h-8 object-contain drop-shadow-lg" /></Link>
+               <Link onClick={() => setMobileMenuOpen(false)} href={switchLang('tr')} className={`p-3 rounded-xl transition-colors ${lang === 'tr' ? 'bg-white/20' : 'hover:bg-white/10'}`}><img src="/turkey.png" alt="TR" className="w-8 h-8 object-contain drop-shadow-lg" /></Link>
+               <Link onClick={() => setMobileMenuOpen(false)} href={switchLang('en')} className={`p-3 rounded-xl transition-colors ${lang === 'en' ? 'bg-white/20' : 'hover:bg-white/10'}`}><img src="/united-kingdom.png" alt="EN" className="w-8 h-8 object-contain drop-shadow-lg" /></Link>
+               <Link onClick={() => setMobileMenuOpen(false)} href={switchLang('es')} className={`p-3 rounded-xl transition-colors ${lang === 'es' ? 'bg-white/20' : 'hover:bg-white/10'}`}><img src="/spain.png" alt="ES" className="w-8 h-8 object-contain drop-shadow-lg" /></Link>
             </div>
-
+            
             <Link onClick={() => setMobileMenuOpen(false)} href={`/${lang}/`} className="hover:text-blue-400 transition-colors">{dict.nav.home}</Link>
             
             <div className="flex flex-col items-center gap-3 w-full normal-case capitalize">
