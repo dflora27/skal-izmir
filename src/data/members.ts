@@ -605,16 +605,16 @@ export const members: Member[] = [
   {
     "id": "hasan-onur-turkay",
     "name": "HASAN ONUR TÜRKAY",
-    "role": "-",
-    "company": "-",
-    "categories": [],
+    "role": "Kurucu",
+    "company": "Red and More Events",
+    "categories": ["Toplantı & Etkinlik Şirketi", "Seyahat Acentası"],
     "photo": "/members/onur-turkay.jpg",
-    "companyLogo": null,
-    "desc": "Skål International İzmir üyesi olan HASAN ONUR TÜRKAY, turizm sektöründeki engin tecrübesiyle İzmir turizmine değer katan seçkin profesyonellerimizden biridir.",
+    "companyLogo": "/members/onur-turkay-is.jpeg",
+    "desc": "1996 yılından beri Turizm endüstrisi içerisinde yer almış ve 2008 yılından beri de Kongre ve Toplantı Organizasyonu sektöründe gorev yapmış bir Turizm profesyoneli olarak edindiğim deneyimleri 2019 yılından beri Red & More Events markası altında “Bir Etkinlik Firmasından Fazlası” olma iddiası ile müşterilerimize hizmetlerimizi farklı bir yorum ile sunmak amacı ile yola çıktım. Bu yolculuk içerisinde son döneminde ise MICE sektörünü de besleyen ve bölgemizin yükselen 'Şarap Turizmi' konusunda yatırımlarımızı arttırarak bu alanda önemli bir aktör olma yolunda emin adımlarla ilerliyoruz.",
     "contact": {
-      "phone": "0 505 671 16 45",
+      "phone": "+90 505 671 16 45",
       "email": "onur@redandmore.org",
-      "website": "-"
+      "website": "https://redandmore.org/"
     }
   },
   {
@@ -1140,6 +1140,21 @@ export const members: Member[] = [
       "phone": "0 532 411 40 17",
       "email": "zmermut@yahoo.com",
       "website": "-"
+    }
+  },
+  {
+    "id": "mine-gunes-kaya",
+    "name": "MİNE GÜNEŞ KAYA",
+    "role": "Yaratıcılık ve Bilimsel Ürünlerden Sorumlu Kurucu - Founder on Creativity and Scientific Products",
+    "company": "MİES GLOBAL DANIŞMANLIK TUR.GIDA İTH.İHR.SAN.TİC.LTD.ŞTİ.",
+    "categories": [],
+    "photo": "/members/mine-gunes-kaya.jpeg",
+    "companyLogo": "/members/mine-gunes-kaya-is.png",
+    "desc": "Mies Global; danışmanlık, turizm, uluslararası ticaret ve yaratıcı proje geliştirme alanlarında faaliyet gösteren çok disiplinli bir platformdur. Küresel vizyonu ve yerel uzmanlığıyla kurumlara, markalara ve bireylere sürdürülebilir büyüme, etkinlik yönetimi, stratejik konumlanma ve uluslararasılaşma süreçlerinde rehberlik eder. Farklı sektörleri ve kültürleri buluşturarak katma değer üretir, yenilikçi ve güven odaklı çözümler sunar.\n\nMies Global is a multidisciplinary platform in consultancy, tourism, international trade, and creative project development. Combining global vision with local expertise, it supports institutions, brands, individuals and event planning processes in sustainable growth and international expansion. It connects industries and cultures, delivering innovative and reliable solutions for today and the future.",
+    "contact": {
+      "phone": "+90 533 567 34 00",
+      "email": "info@miesglobal.com",
+      "website": "www.miesglobal.com"
     }
   }
 ];
