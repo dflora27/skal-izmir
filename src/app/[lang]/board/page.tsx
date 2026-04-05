@@ -23,9 +23,9 @@ export default async function BoardPage({ params }: { params: Promise<{ lang: 't
 
     const members = [
       { name: "Aydın TOKBAŞ", roleTr: "Başkan", roleEn: "President", phone: "+90 505 862 07 85", email: "president@skalizmir.com", photo: "/yonetim/aydin-tokbas.jpg" },
-      { name: "Mine Güneş KAYA", roleTr: "Asbaşkan", roleEn: "Vice President", phone: "+90 533 567 34 00", email: "vp@skalizmir.com", photo: "/yonetim/mine-gunes-kaya.jpeg" },
+      { name: "Mine Güneş KAYA", roleTr: "Asbaşkan", roleEn: "Vice President", phone: "+90 533 567 34 00", email: "vp@skalizmir.com", photo: "/yonetim/mine-gunes-kaya.jpeg?v=2" },
       { name: "Elif AKŞAHİN", roleTr: "Genel Sekreter", roleEn: "General Secretary", phone: "+90 542 270 24 60", email: "secretarygeneral@skalizmir.com", photo: "/yonetim/elif-aksahin.jpg" },
-      { name: "Onur TÜRKAY", roleTr: "Sayman", roleEn: "Treasurer", phone: "+90 505 671 16 45", email: "treasurer@skalizmir.com", photo: "/yonetim/onur-turkay.jpg" },
+      { name: "Onur TÜRKAY", roleTr: "Sayman", roleEn: "Treasurer", phone: "+90 505 671 16 45", email: "treasurer@skalizmir.com", photo: "/yonetim/onur-turkay.jpg?v=2" },
       { name: "Bülent TERCAN", roleTr: "PR ve Üyelik Geliştirme", roleEn: "PR and Membership Development", phone: "+90 532 316 63 56", email: "membership@skalizmir.com", photo: "/yonetim/bulent-tercan.jpg" },
       { name: "Macit ŞAŞZADE", roleTr: "Proje Geliştirme", roleEn: "Project Development", phone: "+90 532 262 50 72", email: "project@skalizmir.com", photo: "/yonetim/macit-saszade.jpeg" },
       { name: "Gülçağ ÖZMERMER", roleTr: "Sponsorluk Geliştirme", roleEn: "Sponsorship Development", phone: "+90 532 571 41 84", email: "sponsorship@skalizmir.com", photo: "/yonetim/gulcag-ozmermer.jpg" }
