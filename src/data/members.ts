@@ -1142,4 +1142,4 @@ export const members: Member[] = [
       "website": "www.miesglobal.com"
     }
   }
-];
+].sort((a, b) => a.name.localeCompare(b.name, 'tr-TR'));
