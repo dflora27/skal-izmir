@@ -1147,7 +1147,7 @@ export const members: Member[] = [
     "name": "MİNE GÜNEŞ KAYA",
     "role": "Yaratıcılık ve Bilimsel Ürünlerden Sorumlu Kurucu - Founder on Creativity and Scientific Products",
     "company": "MİES GLOBAL DANIŞMANLIK TUR.GIDA İTH.İHR.SAN.TİC.LTD.ŞTİ.",
-    "categories": [],
+    "categories": ["Yönetim Kurulu"],
     "photo": "/members/mine-gunes-kaya.jpeg?v=2",
     "companyLogo": "/members/mine-gunes-kaya-is.png?v=2",
     "desc": "Mies Global; danışmanlık, turizm, uluslararası ticaret ve yaratıcı proje geliştirme alanlarında faaliyet gösteren çok disiplinli bir platformdur. Küresel vizyonu ve yerel uzmanlığıyla kurumlara, markalara ve bireylere sürdürülebilir büyüme, etkinlik yönetimi, stratejik konumlanma ve uluslararasılaşma süreçlerinde rehberlik eder. Farklı sektörleri ve kültürleri buluşturarak katma değer üretir, yenilikçi ve güven odaklı çözümler sunar.\n\nMies Global is a multidisciplinary platform in consultancy, tourism, international trade, and creative project development. Combining global vision with local expertise, it supports institutions, brands, individuals and event planning processes in sustainable growth and international expansion. It connects industries and cultures, delivering innovative and reliable solutions for today and the future.",
