@@ -78,7 +78,7 @@ export default async function RootLayout({
       lang={resolvedParams.lang}
       className={`${inter.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[#FDFDFD] text-[#0A192F] font-sans selection:bg-[#E5E9F0]">
+      <body className="min-h-full flex flex-col bg-[#FDFDFD] text-[#0A192F] font-sans selection:bg-[#E5E9F0] overflow-x-hidden w-full relative">
         <CustomCursor />
         {children}
         <JoinButton lang={resolvedParams.lang} />
