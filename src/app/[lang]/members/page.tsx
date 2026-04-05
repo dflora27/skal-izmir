@@ -18,11 +18,9 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: 'tr
 }
 
 export default async function MembersPage({ 
-  params,
-  searchParams
+  params
 }: { 
   params: Promise<{ lang: 'tr' | 'en' | 'es' }>;
-  searchParams: Promise<{ cat?: string }>;
 }) {
   const resolvedParams = await params;
   const lang = resolvedParams.lang;

@@ -7,6 +7,20 @@ import { members } from '@/data/members';
 import fs from 'fs';
 import path from 'path';
 
+export async function generateStaticParams() {
+  const languages = ['tr', 'en', 'es'];
+  const params = [];
+  
+  for (const lang of languages) {
+    for (const member of members) {
+       if (member.id) {
+         params.push({ lang, id: member.id });
+       }
+    }
+  }
+  return params;
+}
+
 export default async function MemberDetailPage({ 
   params 
 }: { 

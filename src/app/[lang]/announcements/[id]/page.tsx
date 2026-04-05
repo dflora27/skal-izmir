@@ -10,6 +10,21 @@ import { notFound } from 'next/navigation';
 import fs from 'fs';
 import path from 'path';
 
+export async function generateStaticParams() {
+  const languages = ['tr', 'en', 'es'] as const;
+  const params = [];
+  
+  for (const lang of languages) {
+    const localizedEvents = getAnnouncements(lang);
+    for (const ann of localizedEvents) {
+       if (ann.id) {
+         params.push({ lang, id: ann.id });
+       }
+    }
+  }
+  return params;
+}
+
 export default async function AnnouncementDetailPage({ 
   params 
 }: { 

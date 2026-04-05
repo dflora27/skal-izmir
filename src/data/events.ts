@@ -347,3 +347,5 @@ export const events = eventsData.map(e => ({
   date: e.translations['tr'].date,
   desc: e.translations['tr'].desc
 }));
+
+export type EventType = ReturnType<typeof getEvents>[0];
