@@ -4,7 +4,7 @@ import { getDictionary } from '@/lib/dictionaries';
 import { CalendarDays, ArrowLeft, Tag } from 'lucide-react';
 import Link from 'next/link';
 
-import { announcements } from '@/data/announcements';
+import { getAnnouncements, announcements } from '@/data/announcements';
 import { EventGallery } from '@/components/event-gallery';
 import { notFound } from 'next/navigation';
 import fs from 'fs';
@@ -19,7 +19,7 @@ export default async function AnnouncementDetailPage({
   const { lang, id } = resolvedParams;
   const dict = await getDictionary(lang);
 
-  const announcement = announcements.find((e) => e.id === id);
+  const announcement = getAnnouncements(lang).find((e) => e.id === id);
   if (!announcement) return notFound();
 
   // Dynamically find gallery files matching announcement ID prefix

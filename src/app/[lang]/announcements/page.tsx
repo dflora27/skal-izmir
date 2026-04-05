@@ -4,7 +4,7 @@ import { Footer } from '@/components/footer-section';
 import { getDictionary } from '@/lib/dictionaries';
 import { Megaphone, CalendarIcon, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
-import { announcements } from '@/data/announcements';
+import { getAnnouncements } from '@/data/announcements';
 
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: 'tr' | 'en' | 'es' }> }): Promise<Metadata> {
@@ -45,7 +45,7 @@ export default async function AnnouncementsPage({ params }: { params: Promise<{ 
       <section className="py-24 bg-[#F3F6F8]">
         <div className="container mx-auto px-6 md:px-12">
            <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
-              {announcements.map((item) => (
+              {getAnnouncements(lang).map((item) => (
                  <Link href={`/${lang}/announcements/${item.id}`} key={item.id} className="bg-white rounded-[2rem] shadow-sm hover:shadow-xl transition-all duration-500 border border-slate-100 flex flex-col group cursor-pointer relative overflow-hidden">
                     {item.image && (
                        <div className="w-full h-64 overflow-hidden relative bg-slate-100">

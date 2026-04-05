@@ -17,10 +17,23 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: 'tr
   return { title: t[lang]?.title, description: t[lang]?.description };
 }
 
+const PAGE_CONTENT = {
+  tr: {
+    hero: "Sektördeki yenilikleri, değerli kulüp üyelerimizin makalelerini ve İzmir turizminin parlayan yüzünü \"Skål Life\" dergimizin sayfalarında keşfedin."
+  },
+  en: {
+    hero: "Discover the innovations in the sector, the articles of our esteemed club members, and the shining face of Izmir tourism in the pages of our \"Skål Life\" magazine."
+  },
+  es: {
+    hero: "Descubra las innovaciones en el sector, los artículos de los estimados miembros de nuestro club y la cara brillante del turismo en Esmirna en las páginas de nuestra revista \"Skål Life\"."
+  }
+};
+
 export default async function SkalLifePage({ params }: { params: Promise<{ lang: 'tr' | 'en' | 'es' }> }) {
   const resolvedParams = await params;
   const lang = resolvedParams.lang;
   const dict = await getDictionary(lang);
+  const t = PAGE_CONTENT[lang] || PAGE_CONTENT.en;
 
   // Issues are imported from @/data/skal-life
 
@@ -36,7 +49,7 @@ export default async function SkalLifePage({ params }: { params: Promise<{ lang:
           <img src="/logo.png" alt="Skål Logo" className="h-12 w-auto mb-6 opacity-80 mix-blend-multiply" />
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif text-[#0A192F] mb-6 leading-tight">Skål Life</h1>
           <p className="text-xl text-slate-500 font-light leading-relaxed max-w-2xl mx-auto">
-            Sektördeki yenilikleri, değerli kulüp üyelerimizin makalelerini ve İzmir turizminin parlayan yüzünü "Skål Life" dergimizin sayfalarında keşfedin.
+            {t.hero}
           </p>
         </div>
       </section>

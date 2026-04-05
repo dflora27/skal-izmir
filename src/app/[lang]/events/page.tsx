@@ -4,7 +4,7 @@ import { Footer } from '@/components/footer-section';
 import { getDictionary } from '@/lib/dictionaries';
 import Link from 'next/link';
 import { MapPin, CalendarDays, Filter } from 'lucide-react';
-import { events } from '@/data/events';
+import { getEvents } from '@/data/events';
 
 // Helper to convert Turkish date strings like "16 Mart 2026" to Date objects for sorting
 const parseDate = (dateStr: string) => {
@@ -51,7 +51,8 @@ export default async function EventsPage({
   const currentSort = resolvedSearchParams.sort || "desc"; // desc = Yeniden Eskiye
 
   // Extract unique years
-  const availableYears = ["Tümü", ...Array.from(new Set(events.map(e => {
+  const localEvents = getEvents(lang);
+  const availableYears = ["Tümü", ...Array.from(new Set(localEvents.map(e => {
     const parts = e.date.trim().split(' ');
     return parts.length >= 3 ? parts[2] : "";
   }).filter(Boolean))).sort((a,b) => parseInt(b) - parseInt(a))];
@@ -69,7 +70,7 @@ export default async function EventsPage({
   };
 
   // Filter
-  let filteredEvents = [...events];
+  let filteredEvents = [...localEvents];
   
   if (currentYear !== "Tümü") {
     filteredEvents = filteredEvents.filter(e => e.date.includes(currentYear));

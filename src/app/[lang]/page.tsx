@@ -4,7 +4,7 @@ import { Footer } from '@/components/footer-section';
 import Link from 'next/link';
 import { AnimatedCounter } from '@/components/AnimatedCounter';
 import { Preloader } from '@/components/preloader';
-import { events } from '@/data/events';
+import { getEvents } from '@/data/events';
 export default async function Home({ params }: { params: Promise<{ lang: 'tr' | 'en' | 'es' }> }) {
   const resolvedParams = await params;
   const lang = resolvedParams.lang;
@@ -175,8 +175,8 @@ export default async function Home({ params }: { params: Promise<{ lang: 'tr' | 
         <div className="relative w-full max-w-[1400px] mx-auto py-10">
             <div className="flex gap-8 px-6 w-max animate-marquee-x hover:[animation-play-state:paused]">
               {/* Combine events a few times to create enough width for proper scrolling */}
-              {[...events, ...events, ...events, ...events].map((event, i) => (
-                <div key={i} className="relative w-72 md:w-80 lg:w-96 aspect-[4/5] rounded-[2rem] overflow-hidden shadow-xl group">
+              {[...getEvents(lang), ...getEvents(lang), ...getEvents(lang), ...getEvents(lang)].map((event, i) => (
+                <div key={`${event.id}-${i}`} className="relative w-72 md:w-80 lg:w-96 aspect-[4/5] rounded-[2rem] overflow-hidden shadow-xl group">
                     <img src={event.bgImage} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt={event.title} />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#0A192F]/90 via-[#0A192F]/20 to-transparent flex flex-col justify-end p-8">
                       <h3 className="text-white font-serif text-xl mb-4 leading-snug drop-shadow-md">{event.title}</h3>

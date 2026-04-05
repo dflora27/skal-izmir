@@ -1,0 +1,101 @@
+
+> skal-izmir@0.1.0 build
+> next build
+
+▲ Next.js 16.2.2 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 2.6s
+  Running TypeScript ...
+  Finished TypeScript in 3.3s ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/115) ...
+  Generating static pages using 11 workers (28/115) 
+  Generating static pages using 11 workers (57/115) 
+  Generating static pages using 11 workers (86/115) 
+✓ Generating static pages using 11 workers (115/115) in 1075ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ● /[lang]
+│ ├ /tr
+│ ├ /en
+│ └ /es
+├ ● /[lang]/about
+│ ├ /tr/about
+│ ├ /en/about
+│ └ /es/about
+├ ● /[lang]/announcements
+│ ├ /tr/announcements
+│ ├ /en/announcements
+│ └ /es/announcements
+├ ƒ /[lang]/announcements/[id]
+├ ● /[lang]/board
+│ ├ /tr/board
+│ ├ /en/board
+│ └ /es/board
+├ ● /[lang]/contact
+│ ├ /tr/contact
+│ ├ /en/contact
+│ └ /es/contact
+├ ƒ /[lang]/events
+├ ● /[lang]/events/[id]
+│ ├ /tr/events/event-16-03-2026
+│ ├ /tr/events/event-17-02-2026
+│ ├ /tr/events/event-07-02-2026
+│ └ [+36 more paths]
+├ ● /[lang]/florimond-volckaert-fund
+│ ├ /tr/florimond-volckaert-fund
+│ ├ /en/florimond-volckaert-fund
+│ └ /es/florimond-volckaert-fund
+├ ● /[lang]/join-us
+│ ├ /tr/join-us
+│ ├ /en/join-us
+│ └ /es/join-us
+├ ● /[lang]/members
+│ ├ /tr/members
+│ ├ /en/members
+│ └ /es/members
+├ ƒ /[lang]/members/[id]
+├ ● /[lang]/president-message
+│ ├ /tr/president-message
+│ ├ /en/president-message
+│ └ /es/president-message
+├ ● /[lang]/skal-izmir
+│ ├ /tr/skal-izmir
+│ ├ /en/skal-izmir
+│ └ /es/skal-izmir
+├ ● /[lang]/skal-life
+│ ├ /tr/skal-life
+│ ├ /en/skal-life
+│ └ /es/skal-life
+├ ● /[lang]/usdf
+│ ├ /tr/usdf
+│ ├ /en/usdf
+│ └ /es/usdf
+├ ● /[lang]/what-is-skal
+│ ├ /tr/what-is-skal
+│ ├ /en/what-is-skal
+│ └ /es/what-is-skal
+├ ● /[lang]/world-congress
+│ ├ /tr/world-congress
+│ ├ /en/world-congress
+│ └ /es/world-congress
+├ ● /[lang]/world-congress/[slug]
+│ ├ /tr/world-congress/day-1-get-together
+│ ├ /tr/world-congress/day-2-opening-ceremony
+│ ├ /tr/world-congress/day-2-urla-tour
+│ └ [+21 more paths]
+├ ● /[lang]/young-skal
+│ ├ /tr/young-skal
+│ ├ /en/young-skal
+│ └ /es/young-skal
+└ ○ /icon.png
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+

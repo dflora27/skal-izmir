@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer-section';
 import { getDictionary } from '@/lib/dictionaries';
+import { ContactForm } from '@/components/contact-form';
 
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: 'tr' | 'en' | 'es' }> }): Promise<Metadata> {
@@ -15,10 +16,71 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: 'tr
   return { title: t[lang]?.title, description: t[lang]?.description };
 }
 
+const PAGE_CONTENT = {
+  tr: {
+    heroTitle: "İletişim ve Destek",
+    heroSub: "Sorularınız, önerileriniz veya üyelik başvurularınız için Skål İzmir Yönetim Kurulu ve sekreteryamızla iletişime geçebilirsiniz.",
+    teamLeft: "Birlikte",
+    teamRight: "Turizmi Büyütüyoruz",
+    teamDesc: "Taleplerinize en kısa sürede profesyonel ekibimiz tarafından dönüş sağlanacaktır.",
+    teamQuote: "\"İzmir’in turizm potansiyelini birlikte büyütmek için buradayız.\"",
+    secName: "Elif AKŞAHİN",
+    secRole: "Genel Sekreter",
+    formTitle: "Bize Mesaj Gönderin",
+    formName: "Adınız Soyadınız",
+    formEmail: "E-Posta Adresiniz",
+    formMsg: "Nasıl yardımcı olabiliriz?",
+    formSubmit: "Gönder",
+    socialTitle: "Bizi Sosyal Medya Platformlarından Takip Edin",
+    socialSub: "Skål İzmir ailesiyle bağınızı koparmayın!",
+    socialDesc: "En güncel etkinliklerimizden haberdar olmak, profesyonel networking buluşmalarımızı takip etmek ve turizm dünyasındaki son gelişmeleri kaçırmamak için bizi sosyal medya hesaplarımızdan takip edin.",
+    socialEnd: "Dijital topluluğumuza katılın ve bu özel yolculuğun bir parçası olun."
+  },
+  en: {
+    heroTitle: "Contact and Support",
+    heroSub: "You can contact the Skål Izmir Board of Directors and our secretariat for your questions, suggestions, or membership applications.",
+    teamLeft: "Growing Tourism",
+    teamRight: "Together",
+    teamDesc: "Our professional team will respond to your requests as soon as possible.",
+    teamQuote: "\"We are here to collectively grow Izmir's tourism potential.\"",
+    secName: "Elif AKŞAHİN",
+    secRole: "Secretary General",
+    formTitle: "Send Us a Message",
+    formName: "Full Name",
+    formEmail: "Email Address",
+    formMsg: "How can we help?",
+    formSubmit: "Send",
+    socialTitle: "Follow Us on Social Media Platforms",
+    socialSub: "Stay connected with the Skål Izmir family!",
+    socialDesc: "Follow us on our social media accounts to stay informed about our latest events, track our professional networking meetings, and not miss the latest developments in the tourism world.",
+    socialEnd: "Join our digital community and be a part of this special journey."
+  },
+  es: {
+    heroTitle: "Contacto y Soporte",
+    heroSub: "Puede ponerse en contacto con la Junta Directiva de Skål Esmirna y nuestra secretaría para sus preguntas, sugerencias o aplicaciones de membresía.",
+    teamLeft: "Haciendo Crecer el Turismo",
+    teamRight: "Juntos",
+    teamDesc: "Nuestro equipo profesional responderá a sus solicitudes lo antes posible.",
+    teamQuote: "\"Estamos aquí para hacer crecer colectivamente el potencial turístico de Esmirna.\"",
+    secName: "Elif AKŞAHİN",
+    secRole: "Secretario General",
+    formTitle: "Envíenos un Mensaje",
+    formName: "Nombre Completo",
+    formEmail: "Dirección de Correo",
+    formMsg: "¿Cómo podemos ayudar?",
+    formSubmit: "Enviar",
+    socialTitle: "Síganos en las Plataformas de Redes Sociales",
+    socialSub: "¡Manténgase conectado con la familia Skål Esmirna!",
+    socialDesc: "Síganos en nuestras cuentas de redes sociales para mantenerse informado sobre nuestros últimos eventos, rastrear nuestras reuniones profesionales de networking y no perderse los últimos desarrollos en el mundo del turismo.",
+    socialEnd: "Únase a nuestra comunidad digital y sea parte de este viaje especial."
+  }
+};
+
 export default async function ContactPage({ params }: { params: Promise<{ lang: 'tr' | 'en' | 'es' }> }) {
   const resolvedParams = await params;
   const lang = resolvedParams.lang;
   const dict = await getDictionary(lang);
+  const t = PAGE_CONTENT[lang] || PAGE_CONTENT.en;
 
   return (
     <main className="min-h-screen bg-[#FDFDFD] text-[#0A192F] font-sans selection:bg-[#0A192F] selection:text-white pb-0">
@@ -28,9 +90,9 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
       <section className="pt-40 pb-20 bg-white border-b border-slate-100 overflow-hidden relative">
         <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-blue-50/50 to-transparent"></div>
         <div className="container mx-auto px-6 md:px-12 relative z-10 text-center flex flex-col items-center">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif text-[#0A192F] mb-6 leading-tight">İletişim ve Destek</h1>
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif text-[#0A192F] mb-6 leading-tight">{t.heroTitle}</h1>
           <p className="text-xl md:text-2xl text-slate-500 font-light leading-relaxed max-w-3xl mx-auto">
-            Sorularınız, önerileriniz veya üyelik başvurularınız için Skål İzmir Yönetim Kurulu ve sekreteryamızla iletişime geçebilirsiniz.
+            {t.heroSub}
           </p>
         </div>
       </section>
@@ -42,17 +104,17 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
               
               <div className="lg:w-1/2">
                  <h2 className="text-3xl md:text-4xl font-serif text-[#0A192F] mb-8 leading-snug">
-                   Birlikte <br/><strong className="text-blue-600 italic">Turizmi Büyütüyoruz</strong>
+                   {t.teamLeft} <br/><strong className="text-blue-600 italic">{t.teamRight}</strong>
                  </h2>
                  <p className="text-lg text-slate-600 font-light leading-relaxed mb-6">
-                   Taleplerinize en kısa sürede profesyonel ekibimiz tarafından dönüş sağlanacaktır.
+                   {t.teamDesc}
                  </p>
                  <p className="text-lg text-[#0A192F] font-medium leading-relaxed p-6 bg-white border-l-4 border-blue-600 rounded-r-2xl shadow-sm mb-6">
-                   "İzmir’in turizm potansiyelini birlikte büyütmek için buradayız."
+                   {t.teamQuote}
                  </p>
                  <div className="mt-8 p-8 bg-white border border-slate-100 rounded-[2rem] shadow-sm">
-                   <h4 className="text-xl font-bold text-[#0A192F] mb-1">Elif AKŞAHİN</h4>
-                   <p className="text-sm tracking-widest uppercase font-bold text-slate-400 mb-6">Genel Sekreter</p>
+                   <h4 className="text-xl font-bold text-[#0A192F] mb-1">{t.secName}</h4>
+                   <p className="text-sm tracking-widest uppercase font-bold text-slate-400 mb-6">{t.secRole}</p>
                    <a href="mailto:secretarygeneral@skalizmir.com" className="text-lg text-blue-600 font-medium hover:underline">
                      secretarygeneral@skalizmir.com
                    </a>
@@ -64,21 +126,13 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
                    <div className="absolute top-8 right-8 w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center">
                       <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                    </div>
-                   <h3 className="text-2xl font-serif text-[#0A192F] mb-8">Bize Mesaj Gönderin</h3>
-                   <form className="flex flex-col gap-6">
-                     <div className="flex flex-col">
-                       <input type="text" className="w-full border-b border-slate-300 py-3 focus:outline-none focus:border-blue-600 transition-colors text-[#0A192F] font-medium" placeholder="Adınız Soyadınız" />
-                     </div>
-                     <div className="flex flex-col">
-                       <input type="email" className="w-full border-b border-slate-300 py-3 focus:outline-none focus:border-blue-600 transition-colors text-[#0A192F] font-medium" placeholder="E-Posta Adresiniz" />
-                     </div>
-                     <div className="flex flex-col">
-                       <textarea rows={4} className="w-full border-b border-slate-300 py-3 focus:outline-none focus:border-blue-600 transition-colors text-[#0A192F] font-medium resize-none" placeholder="Nasıl yardımcı olabiliriz?"></textarea>
-                     </div>
-                     <button type="button" className="mt-4 px-10 py-5 bg-[#0A192F] text-white text-sm tracking-[0.1em] uppercase font-bold hover:bg-blue-600 transition-colors duration-500 rounded-xl shadow-lg w-full">
-                        Gönder
-                     </button>
-                   </form>
+                   <h3 className="text-2xl font-serif text-[#0A192F] mb-8">{t.formTitle}</h3>
+                   <ContactForm t={{
+                     formName: t.formName,
+                     formEmail: t.formEmail,
+                     formMsg: t.formMsg,
+                     formSubmit: t.formSubmit
+                   }} />
                  </div>
               </div>
               
@@ -91,12 +145,12 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
         <div className="container mx-auto px-6 md:px-12">
           
           <div className="text-center mb-16 max-w-4xl mx-auto">
-             <h2 className="text-4xl md:text-5xl font-serif text-[#0A192F] mb-6">Bizi Sosyal Medya Platformlarından Takip Edin</h2>
-             <p className="text-xl text-slate-500 font-medium mb-6">Skål İzmir ailesiyle bağınızı koparmayın!</p>
+             <h2 className="text-4xl md:text-5xl font-serif text-[#0A192F] mb-6">{t.socialTitle}</h2>
+             <p className="text-xl text-slate-500 font-medium mb-6">{t.socialSub}</p>
              <p className="text-lg text-slate-600 font-light leading-relaxed mb-6">
-                En güncel etkinliklerimizden haberdar olmak, profesyonel networking buluşmalarımızı takip etmek ve turizm dünyasındaki son gelişmeleri kaçırmamak için bizi sosyal medya hesaplarımızdan takip edin.
+                {t.socialDesc}
              </p>
-             <p className="text-lg text-blue-600 font-bold mb-10">Dijital topluluğumuza katılın ve bu özel yolculuğun bir parçası olun.</p>
+             <p className="text-lg text-blue-600 font-bold mb-10">{t.socialEnd}</p>
              
              <div className="flex justify-center gap-6">
                 <a href="https://www.instagram.com/skalizmir/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 px-8 py-4 bg-slate-50 rounded-full border border-slate-200 hover:bg-blue-50 transition-colors group">

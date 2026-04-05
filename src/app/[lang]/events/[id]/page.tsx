@@ -4,7 +4,7 @@ import { getDictionary } from '@/lib/dictionaries';
 import { MapPin, CalendarDays, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 
-import { events } from '@/data/events';
+import { events, getEvents } from '@/data/events';
 import { EventGallery } from '@/components/event-gallery';
 import { notFound } from 'next/navigation';
 import fs from 'fs';
@@ -18,7 +18,7 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params;
   const { lang, id } = resolvedParams;
-  const mockEvent = events.find((e) => e.id === id);
+  const mockEvent = getEvents(lang).find((e) => e.id === id);
 
   if (!mockEvent) return { title: 'Not Found' };
 
@@ -48,7 +48,7 @@ export default async function EventDetailPage({
   const { lang, id } = resolvedParams;
   const dict = await getDictionary(lang);
 
-  const mockEvent = events.find((e) => e.id === id);
+  const mockEvent = getEvents(lang).find((e) => e.id === id);
   if (!mockEvent) return notFound();
 
   // Dynamically find gallery files matching event date prefix (e.g. 25-02-2025-1.jpeg)
