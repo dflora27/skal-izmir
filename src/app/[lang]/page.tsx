@@ -1,6 +1,7 @@
 import { getDictionary } from '@/lib/dictionaries';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer-section';
+import Image from 'next/image';
 import Link from 'next/link';
 import { AnimatedCounter } from '@/components/AnimatedCounter';
 import { Preloader } from '@/components/preloader';
@@ -63,7 +64,7 @@ export default async function Home({ params }: { params: Promise<{ lang: 'tr' | 
         <div className="container mx-auto px-6 md:px-12 flex flex-col items-center">
           
           <div className="flex flex-col items-center justify-center mb-32 text-center">
-            <img src="/logo.png" alt="Skål International İzmir" className="max-w-[400px] md:max-w-[500px] w-full object-contain mb-16 drop-shadow-md" />
+            <Image src="/logo.png" alt="Skål International İzmir" width={500} height={160} priority className="max-w-[400px] md:max-w-[500px] w-full object-contain mb-16 drop-shadow-md" />
             <div className="max-w-4xl space-y-8 text-xl md:text-2xl text-slate-600 leading-relaxed font-light border-t border-slate-200 pt-16 mt-8">
               <p>{dict.izmir.p1}</p>
               <p>{dict.izmir.p2}</p>
@@ -115,7 +116,7 @@ export default async function Home({ params }: { params: Promise<{ lang: 'tr' | 
                 <div className="flex gap-16 items-center px-8 w-max">
                    {partners.map((url, i) => (
                       <a href={url} target="_blank" rel="noopener noreferrer" key={`set1-${i}`} className="flex-shrink-0 w-32 h-16 opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-300 flex items-center justify-center">
-                         <img src={`/partners/partner-${i+1}.png`} alt={`Partner ${i+1}`} className="max-w-full max-h-full object-contain" />
+                         <Image src={`/partners/partner-${i+1}.png`} alt={`Partner ${i+1}`} width={128} height={64} className="max-w-full max-h-full object-contain" />
                       </a>
                    ))}
                 </div>
@@ -123,7 +124,7 @@ export default async function Home({ params }: { params: Promise<{ lang: 'tr' | 
                 <div className="flex gap-16 items-center px-8 w-max">
                    {partners.map((url, i) => (
                       <a href={url} target="_blank" rel="noopener noreferrer" key={`set2-${i}`} className="flex-shrink-0 w-32 h-16 opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-300 flex items-center justify-center">
-                         <img src={`/partners/partner-${i+1}.png`} alt={`Partner ${i+1}`} className="max-w-full max-h-full object-contain" />
+                         <Image src={`/partners/partner-${i+1}.png`} alt={`Partner ${i+1}`} width={128} height={64} className="max-w-full max-h-full object-contain" />
                       </a>
                    ))}
                 </div>
@@ -155,7 +156,7 @@ export default async function Home({ params }: { params: Promise<{ lang: 'tr' | 
             </div>
 
             <div className="lg:w-1/2 relative min-h-[400px]">
-               <img src="/anasayfa-2.jpg" alt="Skal Network" className="absolute inset-0 w-full h-full object-cover" />
+               <Image src="/anasayfa-2.jpg" alt="Skal Network" fill sizes="50vw" loading="lazy" className="object-cover" />
                <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 via-blue-900/20 to-transparent"></div>
             </div>
 
@@ -177,7 +178,7 @@ export default async function Home({ params }: { params: Promise<{ lang: 'tr' | 
               {/* Combine events a few times to create enough width for proper scrolling */}
               {[...getEvents(lang), ...getEvents(lang), ...getEvents(lang), ...getEvents(lang)].map((event, i) => (
                 <div key={`${event.id}-${i}`} className="relative w-72 md:w-80 lg:w-96 aspect-[4/5] rounded-[2rem] overflow-hidden shadow-xl group">
-                    <img src={event.bgImage} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt={event.title} />
+                    <Image src={event.bgImage} alt={event.title} fill sizes="(max-width: 768px) 300px, 400px" loading="lazy" className="object-cover transition-transform duration-700 group-hover:scale-105" />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#0A192F]/90 via-[#0A192F]/20 to-transparent flex flex-col justify-end p-8">
                       <h3 className="text-white font-serif text-xl mb-4 leading-snug drop-shadow-md">{event.title}</h3>
                       <Link href={`/${lang}/events/${event.id}`}>

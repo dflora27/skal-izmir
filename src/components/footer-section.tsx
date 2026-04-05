@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import React from 'react';
+import Image from 'next/image';
 
 const AnimatedContainer = ({ children, className, delay = 0 }: { children: React.ReactNode; className?: string; delay?: number; }) => {
 	return (
@@ -24,7 +25,7 @@ export function Footer() {
 				
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 lg:gap-8">
 					<AnimatedContainer className="flex flex-col gap-6">
-						<img src="/logo-60.png" alt="Skål International İzmir Logo" className="w-[280px] md:w-[320px] object-contain drop-shadow-sm mb-4 -ml-4 lg:-ml-6" />
+						<Image src="/logo-60.png" alt="Skål International İzmir Logo" width={320} height={100} className="w-[280px] md:w-[320px] object-contain drop-shadow-sm mb-4 -ml-4 lg:-ml-6" />
 						<p className="text-[#0A192F] text-sm leading-relaxed font-medium">
 							İsmet Kaptan Mahallesi<br/>
 							Çankaya İş Merkezi No.90 Kat:5 D: 507<br/>

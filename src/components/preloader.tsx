@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 
 export function Preloader() {
   const [isLoading, setIsLoading] = useState(true);
@@ -36,7 +37,7 @@ export function Preloader() {
             transition={{ duration: 0.6, ease: "easeOut" }}
             className="flex flex-col items-center"
           >
-             <img src="/logo-60.png" alt="Skål Logo" className="w-64 md:w-80 h-auto mix-blend-multiply" />
+             <Image src="/logo-60.png" alt="Skål Logo" width={320} height={100} priority className="w-64 md:w-80 h-auto mix-blend-multiply" />
              <div className="h-[2px] w-48 md:w-64 bg-slate-200 mt-10 rounded-full overflow-hidden">
                 <motion.div 
                    initial={{ width: "0%" }}
