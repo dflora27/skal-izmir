@@ -363,7 +363,7 @@ export default async function JoinUsPage({ params }: Props) {
         {/* CTA Banner */}
         <div className="w-full bg-[#1B123A] rounded-[4rem] p-16 lg:p-24 text-center relative overflow-hidden shadow-2xl group">
            <div className="absolute inset-0 bg-gradient-to-tr from-[#F87498]/20 to-[#128FD9]/20 mix-blend-screen z-0"></div>
-           <div className="absolute inset-0 bg-[url('/swc/swc-4.jpg')] bg-cover bg-center opacity-10 group-hover:opacity-20 transition-opacity duration-1000 z-0"></div>
+           <div className="absolute inset-0 bg-[url('/swc/swc-bg.JPG')] bg-cover bg-center opacity-10 group-hover:opacity-20 transition-opacity duration-1000 z-0"></div>
            
            <div className="relative z-10 flex flex-col items-center">
               <div className="w-20 h-20 bg-white/10 rounded-full backdrop-blur-md border border-white/20 flex items-center justify-center mb-8">
