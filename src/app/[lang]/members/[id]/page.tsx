@@ -93,12 +93,7 @@ export default async function MemberDetailPage({
             
             {/* Contact Actions Grid */}
             <div className="flex flex-wrap justify-center gap-4">
-               {mockMember.contact.phone && mockMember.contact.phone !== "-" && (
-                  <a href={`tel:${mockMember.contact.phone}`} className="flex items-center gap-3 bg-white px-6 py-3 rounded-full shadow-sm hover:shadow-md border border-slate-100 text-slate-600 hover:text-blue-600 transition-all">
-                     <Phone size={18} />
-                     <span className="text-sm font-bold tracking-widest">{mockMember.contact.phone}</span>
-                  </a>
-               )}
+               {/* Phone hidden by request */}
                {mockMember.contact.email && mockMember.contact.email !== "-" && (
                   <a href={`mailto:${mockMember.contact.email}`} className="flex items-center gap-3 bg-white px-6 py-3 rounded-full shadow-sm hover:shadow-md border border-slate-100 text-slate-600 hover:text-blue-600 transition-all">
                      <Mail size={18} />
