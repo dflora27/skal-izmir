@@ -1,10 +1,19 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
-  trailingSlash: true,
-  images: {
-    unoptimized: true,
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/tr',
+        permanent: false,
+      },
+      {
+        source: '/:path((?!tr|en|es|_next|api|.*\\.).*)',
+        destination: '/tr/:path',
+        permanent: false,
+      }
+    ];
   },
 };
 
