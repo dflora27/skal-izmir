@@ -1,6 +1,6 @@
 :HL["/_next/static/chunks/0cebelm5y_b61.css","style"]
-:HL["/_next/static/chunks/0qj5jzwg2h18_.css","style"]
+:HL["/_next/static/chunks/07.k5~048e4-y.css","style"]
 :HL["/_next/static/media/1bffadaabf893a1e-s.p.16ipb6fqu393i.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/83afe278b6a6bb3c-s.p.0q-301v4kxxnr.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/members/unknown.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":0,"slots":{"children":{"name":"lang","param":{"type":"d","key":"tr","siblings":null},"prefetchHints":16,"slots":{"children":{"name":"members","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"ali-riza-candarli","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"2Os3MJ369MnJXLHFsBxf1"}
+0:{"tree":{"name":"","param":null,"prefetchHints":0,"slots":{"children":{"name":"lang","param":{"type":"d","key":"tr","siblings":null},"prefetchHints":16,"slots":{"children":{"name":"members","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"ali-riza-candarli","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"BIY9aWZrRfANfEqL6moL5"}
