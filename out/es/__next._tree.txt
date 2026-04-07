@@ -29,4 +29,4 @@
 :HL["/events/22-04-2025.jpeg","image"]
 :HL["/events/15-04-2025.jpeg","image"]
 :HL["/events/25-02-2025.jpeg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":0,"slots":{"children":{"name":"lang","param":{"type":"d","key":"es","siblings":null},"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"Rfe8ZIjLVLNJmNv9pTh4Y"}
+0:{"tree":{"name":"","param":null,"prefetchHints":0,"slots":{"children":{"name":"lang","param":{"type":"d","key":"es","siblings":null},"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"DLekK_RTjGLbuq6X39HFj"}

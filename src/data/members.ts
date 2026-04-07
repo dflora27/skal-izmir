@@ -188,7 +188,7 @@ export const members: Member[] = [
     "role": "Genel Müdür",
     "company": "İzmir Palas Oteli& Kilim Otel",
     "categories": [],
-    "photo": "/yonetim/aydin-tokbas.jpeg",
+    "photo": "/members/aydin-tokbas.jpg",
     "companyLogo": "/members/aydin-tokbas-is.jpeg",
     "desc": "’Dünyada bulunduğu kentin simgesi hâline gelmiş pek çok otel vardır.\nİzmir Palas Oteli de 1927 yılından bu yana, İzmir Körfezi’nin kıyısında, Kordon’da muhteşem manzarasıyla şehrin belleğinde yer etmiş, İzmir turizminin en köklü ve prestijli tesislerinden biridir.\n\nCumhuriyet döneminden günümüze uzanan bu eşsiz miras, İzmir’in tarihini ve zarafetini modern konfor anlayışıyla birleştirerek misafirlerine sunmaktadır.1972 yılında yeniden inşa edilen otelimiz, 2015 yılında çağdaş bir anlayışla yeniden dekore edilmiştir. Deniz ve şehir manzaralı, 17’si suit olmak üzere toplam 146 odasıyla hizmet veren İzmir Palas, modern bir şehir ve butik otel konsepti sunmaktadır. Otelimizde 1 adet engelli odamız bulunmakta olup aktif olarak hizmet vermektedir. Tüm odalarımızda ücretsiz internet erişimi mevcuttur. Merkezi konumu, deniz manzaralı odaları ve köklü hizmet anlayışıyla İzmir Palas Otel; iş seyahatleri, turistik konaklamalar ve grup organizasyonları için güvenilir bir tercih olmaya devam etmektedir.\n\nTesisimiz, T.C. Kültür ve Turizm Bakanlığı’na bağlı Turizm İşletme Belgesi No: 21 ile faaliyet gösteren, İzmir’in en eski ve resmi belgeli otellerinden biridir. Bu belge, tesisimizin kalite, güvenlik ve hizmet standartlarının resmi olarak onaylandığını göstermektedir.",
     "contact": {
@@ -413,7 +413,7 @@ export const members: Member[] = [
     "role": "Fuarlar Koordinatörü",
     "company": "İZFAŞ",
     "categories": [],
-    "photo": "/yonetim/elif-aksahin.png",
+    "photo": "/members/elif-aksahin.png",
     "companyLogo": "/members/elif-aksahin-is.jpg",
     "desc": "İzmir Büyükşehir Belediyesinin iştirak şirketi olan İZFAŞ, fuarcılık, kongre ve etkinlik sektörlerinde faaliyet göstermektedir.\n\nİZFAŞ özgünlüğü ve başarıyı ilke edinmiş bir kamu şirketi olarak fuarlarını, dünya fuarları ile rekabet edecek düzeye ulaştırmayı ve modern fuarcılığın uygulanabilirliğini hedeflemektedir. İZFAŞ’ın kurulmasındaki asıl amaç, İzmir’de fuarcılığın gelişmesi, fuarlar sayesinde kent ekonomisinin canlanması ve İzmir’in kültür-sanat yaşamına katkıda bulunmaktır.",
     "contact": {

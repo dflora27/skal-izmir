@@ -6,4 +6,4 @@
 :HL["/insta/insta-2.jpeg","image"]
 :HL["/insta/insta-3.jpeg","image"]
 :HL["/insta/insta-4.jpeg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":0,"slots":{"children":{"name":"lang","param":{"type":"d","key":"tr","siblings":null},"prefetchHints":16,"slots":{"children":{"name":"contact","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Rfe8ZIjLVLNJmNv9pTh4Y"}
+0:{"tree":{"name":"","param":null,"prefetchHints":0,"slots":{"children":{"name":"lang","param":{"type":"d","key":"tr","siblings":null},"prefetchHints":16,"slots":{"children":{"name":"contact","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"DLekK_RTjGLbuq6X39HFj"}
