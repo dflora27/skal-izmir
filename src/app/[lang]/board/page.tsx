@@ -22,7 +22,7 @@ export default async function BoardPage({ params }: { params: Promise<{ lang: 't
   const dict = await getDictionary(lang);
 
     const members = [
-      { name: "Aydın TOKBAŞ", roleTr: "Başkan", roleEn: "President", phone: "+90 505 862 07 85", email: "president@skalizmir.com", photo: "/yonetim/aydin-tokbas.jpeg" },
+      { name: "Aydın TOKBAŞ", roleTr: "Başkan", roleEn: "President", phone: "+90 505 862 07 85", email: "president@skalizmir.com", photo: "/yonetim/aydin-tokbas.jpg" },
       { name: "Mine Güneş KAYA", roleTr: "Asbaşkan", roleEn: "Vice President", phone: "+90 533 567 34 00", email: "vp@skalizmir.com", photo: "/yonetim/mine-gunes-kaya.jpeg?v=2" },
       { name: "Elif AKŞAHİN", roleTr: "Genel Sekreter", roleEn: "General Secretary", phone: "+90 542 270 24 60", email: "secretarygeneral@skalizmir.com", photo: "/yonetim/elif-aksahin.png" },
       { name: "Onur TÜRKAY", roleTr: "Sayman", roleEn: "Treasurer", phone: "+90 505 671 16 45", email: "treasurer@skalizmir.com", photo: "/yonetim/onur-turkay.jpg?v=2" },
