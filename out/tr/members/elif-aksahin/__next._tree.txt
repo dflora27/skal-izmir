@@ -4,4 +4,4 @@
 :HL["/_next/static/media/83afe278b6a6bb3c-s.p.0q-301v4kxxnr.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/members/elif-aksahin.png","image"]
 :HL["/members/elif-aksahin-is.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":0,"slots":{"children":{"name":"lang","param":{"type":"d","key":"tr","siblings":null},"prefetchHints":16,"slots":{"children":{"name":"members","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"elif-aksahin","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"H7dbmCqnX9wEfww0ay6ys"}
+0:{"tree":{"name":"","param":null,"prefetchHints":0,"slots":{"children":{"name":"lang","param":{"type":"d","key":"tr","siblings":null},"prefetchHints":16,"slots":{"children":{"name":"members","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"elif-aksahin","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"_-2e2c6l4M-NPhLkrNMwd"}
