@@ -10,12 +10,12 @@
 :HL["/members/didem-ersoy.JPG","image"]
 :HL["/members/bulent-tercan.jpg","image"]
 :HL["/members/ege-meric.jpeg","image"]
-:HL["/members/elif-aksahin.jpg","image"]
-:HL["/members/gulcag-ozmermer.jpg","image"]
+:HL["/members/elif-aksahin.png","image"]
+:HL["/members/gamze-gulcag-yeni-ozmermer.JPG","image"]
 :HL["/members/onur-turkay.jpg?v=2","image"]
 :HL["/members/ibrahim-demiralp.jpeg","image"]
 :HL["/members/kivanc-meric.jpg","image"]
 :HL["/members/macit-saszade.jpeg","image"]
 :HL["/members/mine-gunes-kaya.jpeg?v=2","image"]
 :HL["/members/orhan-belge.jpeg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":0,"slots":{"children":{"name":"lang","param":{"type":"d","key":"tr","siblings":null},"prefetchHints":16,"slots":{"children":{"name":"members","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"ss4A0ri5-gWUaTOVFi1cd"}
+0:{"tree":{"name":"","param":null,"prefetchHints":0,"slots":{"children":{"name":"lang","param":{"type":"d","key":"tr","siblings":null},"prefetchHints":16,"slots":{"children":{"name":"members","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"GYBkp8K-1Tq26kk1z9qAi"}

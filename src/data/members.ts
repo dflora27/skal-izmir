@@ -185,16 +185,16 @@ export const members: Member[] = [
   {
     "id": "aydin-tokbas",
     "name": "AYDIN TOKBAŞ",
-    "role": "-",
-    "company": "-",
+    "role": "Genel Müdür",
+    "company": "İzmir Palas Oteli& Kilim Otel",
     "categories": [],
     "photo": "/members/aydin-tokbas.jpg",
-    "companyLogo": null,
-    "desc": "Skål International İzmir üyesi olan AYDIN TOKBAŞ, turizm sektöründeki engin tecrübesiyle İzmir turizmine değer katan seçkin profesyonellerimizden biridir.",
+    "companyLogo": "/members/aydin-tokbas-is.jpeg",
+    "desc": "’Dünyada bulunduğu kentin simgesi hâline gelmiş pek çok otel vardır.\nİzmir Palas Oteli de 1927 yılından bu yana, İzmir Körfezi’nin kıyısında, Kordon’da muhteşem manzarasıyla şehrin belleğinde yer etmiş, İzmir turizminin en köklü ve prestijli tesislerinden biridir.\n\nCumhuriyet döneminden günümüze uzanan bu eşsiz miras, İzmir’in tarihini ve zarafetini modern konfor anlayışıyla birleştirerek misafirlerine sunmaktadır.1972 yılında yeniden inşa edilen otelimiz, 2015 yılında çağdaş bir anlayışla yeniden dekore edilmiştir. Deniz ve şehir manzaralı, 17’si suit olmak üzere toplam 146 odasıyla hizmet veren İzmir Palas, modern bir şehir ve butik otel konsepti sunmaktadır. Otelimizde 1 adet engelli odamız bulunmakta olup aktif olarak hizmet vermektedir. Tüm odalarımızda ücretsiz internet erişimi mevcuttur. Merkezi konumu, deniz manzaralı odaları ve köklü hizmet anlayışıyla İzmir Palas Otel; iş seyahatleri, turistik konaklamalar ve grup organizasyonları için güvenilir bir tercih olmaya devam etmektedir.\n\nTesisimiz, T.C. Kültür ve Turizm Bakanlığı’na bağlı Turizm İşletme Belgesi No: 21 ile faaliyet gösteren, İzmir’in en eski ve resmi belgeli otellerinden biridir. Bu belge, tesisimizin kalite, güvenlik ve hizmet standartlarının resmi olarak onaylandığını göstermektedir.",
     "contact": {
-      "phone": "0 505 862 07 85",
-      "email": "aydntokbas@gmail.com",
-      "website": "-"
+      "phone": "05058620785",
+      "email": "gm@izmirpalas.com.tr",
+      "website": "www.izmirpalas.com.tr"
     }
   },
   {
@@ -410,15 +410,15 @@ export const members: Member[] = [
   {
     "id": "elif-aksahin",
     "name": "ELİF AKŞAHİN",
-    "role": "-",
-    "company": "-",
+    "role": "Fuarlar Koordinatörü",
+    "company": "İZFAŞ",
     "categories": [],
-    "photo": "/members/elif-aksahin.jpg",
-    "companyLogo": null,
-    "desc": "Skål International İzmir üyesi olan ELİF AKŞAHİN, turizm sektöründeki engin tecrübesiyle İzmir turizmine değer katan seçkin profesyonellerimizden biridir.",
+    "photo": "/members/elif-aksahin.png",
+    "companyLogo": "/members/elif-aksahin-is.jpg",
+    "desc": "İzmir Büyükşehir Belediyesinin iştirak şirketi olan İZFAŞ, fuarcılık, kongre ve etkinlik sektörlerinde faaliyet göstermektedir.\n\nİZFAŞ özgünlüğü ve başarıyı ilke edinmiş bir kamu şirketi olarak fuarlarını, dünya fuarları ile rekabet edecek düzeye ulaştırmayı ve modern fuarcılığın uygulanabilirliğini hedeflemektedir. İZFAŞ’ın kurulmasındaki asıl amaç, İzmir’de fuarcılığın gelişmesi, fuarlar sayesinde kent ekonomisinin canlanması ve İzmir’in kültür-sanat yaşamına katkıda bulunmaktır.",
     "contact": {
-      "phone": "0 531 250 64 27",
-      "email": "elif.aksahin@izmirfair.com.tr",
+      "phone": "05422702460",
+      "email": "Elifdagli84@hotmail.com",
       "website": "-"
     }
   },
@@ -515,16 +515,16 @@ export const members: Member[] = [
   {
     "id": "gamze-gulcag-yeni-ozmermer",
     "name": "GAMZE GÜLÇAĞ YENİ ÖZMERMER",
-    "role": "-",
-    "company": "-",
+    "role": "Kurucu Ortak",
+    "company": "GCG Hospitality Management",
     "categories": [],
-    "photo": "/members/gulcag-ozmermer.jpg",
-    "companyLogo": null,
-    "desc": "Skål International İzmir üyesi olan GAMZE GÜLÇAĞ YENİ ÖZMERMER, turizm sektöründeki engin tecrübesiyle İzmir turizmine değer katan seçkin profesyonellerimizden biridir.",
+    "photo": "/members/gamze-gulcag-yeni-ozmermer.JPG",
+    "companyLogo": "/members/gamze-gulcag-yeni-ozmermer-is.jpg",
+    "desc": "GCG HOSPITALITY MANAGEMENT; işletmenize, lokasyon ve konseptine uygun olan uluslararası marka konumlandırması ile piyasa şartlarının üzerinde bir gelir optimizasyonu sağlamayı ve işletmenizin pazardan aldığı payı büyütmeyi hedefleyen bir Otel İşletmeciliği firmasıdır.\n\nGCG Hospitality Management tarafından sunulan Otel Yönetimi ve danışmanlık hizmetleri arasında; yatırımcı temsilciliği, marka seçimi, otel açılış öncesi ve sonrası yönetimi, operasyon denetimleri ve danışmanlık, iş geliştirme yönetimi, belgelendirme süreç yönetimi, kar iyileştirme planları, misafir memnuniyeti ve imaj arasındaki ilişkiye odaklanan çeşitli programlar bulunmaktadır.\n\nDanışmanlığı verdiği işletmelerin pazarlama, tutundurma ve gelir artırma hedeflerini de yöneten GCG Hospitality Management, vizyonu gerçeğe dönüştüren, “Uluslararası Otel Markaları” konusunda deneyimli olan farklı uzmanlık alanlarına sahip yöneticilerden oluşan bir bir ekip aracılığıyla Türkiye’nin önde gelen otelcilik işletmelerinden biri olarak kurulmuştur.",
     "contact": {
-      "phone": "0 532 571 41 84",
+      "phone": "05325714184",
       "email": "gulcag.ozmermer@gcghm.com",
-      "website": "-"
+      "website": "www.gcghm.com"
     }
   },
   {
