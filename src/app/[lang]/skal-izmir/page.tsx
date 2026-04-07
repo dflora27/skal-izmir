@@ -52,8 +52,8 @@ const MILESTONES: Record<string, { period: string; president: string; desc: stri
     { period: "2012", president: "Nihat Levent", desc: "Skål Dünya Kongresi adaylığı ve uluslararası yoğun katılım sayesinde İzmir, küresel ölçekte tanıtılmıştır." },
     { period: "2016", president: "Berrin Uşkay", desc: "Kulübümüzün ilk kadın başkanı olarak sektörel krizlere rağmen 50. Yıl kutlamaları ve uluslararası kardeş kulüp anlaşmalarıyla başarı dolu bir dönem yönetmiştir." },
     { period: "2018 - 2021", president: "Emre Gezgin", desc: "STK liderlerinin katılımıyla oluşan sinerji sonucunda kulübümüz, İzmir İl Kültür ve Turizm Müdürlüğü’nden “Farkındalık Ödülü” almış ve 2020’de “Dünyanın En İyi 2. Kulübü” seçilmiştir." },
-    { period: "2021 - 2023", president: "Güner Güney", desc: "Dünya Kongresi ev sahipliği sürecini yöneterek İzmir'e eşsiz bir global prestij kazandırmıştır." },
-    { period: "2024 - Günümüz", president: "Aydın Tokbaş", desc: "Sürdürülebilirlik ilkeleri çerçevesinde kulübün vizyoner projelerini başarıyla yürütmektedir." }
+    { period: "2021 - 2025", president: "Güner Güney", desc: "Dünya Kongresi ev sahipliği sürecini yöneterek İzmir'e eşsiz bir global prestij kazandırmıştır." },
+    { period: "2025 - Günümüz", president: "Aydın Tokbaş", desc: "Sürdürülebilirlik ilkeleri çerçevesinde kulübün vizyoner projelerini başarıyla yürütmektedir." }
   ],
   en: [
     { period: "1974 - 2002", president: "Josef Keşişyan", desc: "During his uninterrupted 28-year presidency, he made immense contributions to the spread of Skål in our country and was later awarded Honorary Membership by Skål International." },
@@ -62,8 +62,8 @@ const MILESTONES: Record<string, { period: string; president: string; desc: stri
     { period: "2012", president: "Nihat Levent", desc: "Through the nomination for the Skål World Congress and intense international participation, Izmir was promoted on a global scale." },
     { period: "2016", president: "Berrin Uşkay", desc: "As our club's first female president, despite sectorial crises, she managed a successful term with 50th Anniversary celebrations and international twinning club agreements." },
     { period: "2018 - 2021", president: "Emre Gezgin", desc: "As a result of the synergy created by the participation of NGO leaders, our club received the 'Awareness Award' from the Izmir Provincial Directorate of Culture and Tourism and was selected as the '2nd Best Club in the World' in 2020." },
-    { period: "2021 - 2023", president: "Güner Güney", desc: "By managing the hosting process of the World Congress, he brought unique global prestige to Izmir." },
-    { period: "2024 - Present", president: "Aydın Tokbaş", desc: "Successfully carrying out the club's visionary projects within the framework of sustainability principles." }
+    { period: "2021 - 2025", president: "Güner Güney", desc: "By managing the hosting process of the World Congress, he brought unique global prestige to Izmir." },
+    { period: "2025 - Present", president: "Aydın Tokbaş", desc: "Successfully carrying out the club's visionary projects within the framework of sustainability principles." }
   ],
   es: [
     { period: "1974 - 2002", president: "Josef Keşişyan", desc: "Durante su presidencia ininterrumpida de 28 años, hizo enormes contribuciones a la difusión de Skål en nuestro país y luego fue galardonado con una Membresía Honoraria por Skål International." },
@@ -72,8 +72,8 @@ const MILESTONES: Record<string, { period: string; president: string; desc: stri
     { period: "2012", president: "Nihat Levent", desc: "A través de la nominación para el Congreso Mundial de Skål y la intensa participación internacional, Esmirna se promovió a nivel mundial." },
     { period: "2016", president: "Berrin Uşkay", desc: "Como la primera mujer presidenta de nuestro club, a pesar de las crisis sectoriales, logró un mandato exitoso con las celebraciones del 50º Aniversario y acuerdos de clubes hermanos internacionales." },
     { period: "2018 - 2021", president: "Emre Gezgin", desc: "Como resultado de la sinergia creada por la participación de líderes de ONG, nuestro club recibió el 'Premio a la Conciencia' de la Dirección Provincial de Cultura y Turismo de Esmirna y fue seleccionado como el '2º Mejor Club del Mundo' en 2020." },
-    { period: "2021 - 2023", president: "Güner Güney", desc: "Al liderar el proceso de organización del Congreso Mundial, aportó un prestigio global único a Esmirna." },
-    { period: "2024 - Presente", president: "Aydın Tokbaş", desc: "Llevando a cabo con éxito los proyectos visionarios del club en el marco de los principios de sostenibilidad." }
+    { period: "2021 - 2025", president: "Güner Güney", desc: "Al liderar el proceso de organización del Congreso Mundial, aportó un prestigio global único a Esmirna." },
+    { period: "2025 - Presente", president: "Aydın Tokbaş", desc: "Llevando a cabo con éxito los proyectos visionarios del club en el marco de los principios de sostenibilidad." }
   ]
 };
 

@@ -37,7 +37,7 @@ const JOIN_US_CONTENT = {
     aboutPara3_bold: "1932 yılında Paris’te kurulmuştur.",
     aboutPara3_p2: "2 yıl sonra, 1934 yılında, bu oluşum, dostluk ve uluslararası bazda gelişmiş, ‘’Association Internationale des Skal Clubs’’ formasyonunda ve Paris Skal Başkanı olan ‘’Father of Skal’’ olarak da bilinen Florimond Volckaert öncülüğünde Skal, uluslararası kimliğine kavuşmuştur.",
     aboutPara4: "Uluslararası Skal, bugün yaklaşık",
-    aboutPara4_bold: "102 ülkede, 343 kulüp ve 13.424 üye",
+    aboutPara4_bold: "75 ülkede, 294 kulüp ve 12.500 üye",
     aboutPara4_p2: "ile temsil edilmektedir. Tüm kulüpler ve Ulusal Komiteler",
     aboutPara4_bold2: "İspanya/Torremolinos’da SKAL INTERNATIONAL",
     aboutPara4_p3: "şemsiyesi altında birleşmiştir ve bu merkezden idare edilir.",
@@ -64,7 +64,7 @@ const JOIN_US_CONTENT = {
       }
     },
     ctaTitle: "Kariyerinizi ve Ağınızı Genişletin",
-    ctaDesc: "Turizm endüstrisinin en global ve prestijli sivil toplum kuruluşuna katılın. Hemen üyelik formunu doldurun ve 14.000 üyeli global ağımıza dahil olun.",
+    ctaDesc: "Turizm endüstrisinin en global ve prestijli sivil toplum kuruluşuna katılın. Hemen üyelik formunu doldurun ve 12.500 üyeli global ağımıza dahil olun.",
     ctaButton: "Üyelik Formunu Doldur"
   },
   en: {
@@ -79,7 +79,7 @@ const JOIN_US_CONTENT = {
     aboutPara3_bold: "Paris in 1932",
     aboutPara3_p2: "by Florimond Volckaert and a few tourism friends following an educational trip to Scandinavia. Two years later, in 1934, the formation materialized into the 'Association Internationale des Skal Clubs' under the leadership of Florimond Volckaert, widely known as the ''Father of Skal''.",
     aboutPara4: "Today, Skal International is represented globally with approximately",
-    aboutPara4_bold: "13,424 members across 343 clubs in 102 countries.",
+    aboutPara4_bold: "12,500 members across 294 clubs in 75 countries.",
     aboutPara4_p2: "All clubs and National Committees operate under the umbrella of",
     aboutPara4_bold2: "SKAL INTERNATIONAL headquartered in Torremolinos, Spain",
     aboutPara4_p3: ", and are administered from this central hub.",
@@ -106,7 +106,7 @@ const JOIN_US_CONTENT = {
       }
     },
     ctaTitle: "Expand Your Career and Network",
-    ctaDesc: "Join the most global and prestigious non-governmental organization in the tourism industry. Fill out the membership form today and become part of our 14,000+ member global network.",
+    ctaDesc: "Join the most global and prestigious non-governmental organization in the tourism industry. Fill out the membership form today and become part of our 12,500 member global network.",
     ctaButton: "Fill out Membership Form"
   },
   es: {
@@ -121,7 +121,7 @@ const JOIN_US_CONTENT = {
     aboutPara3_bold: "París en 1932",
     aboutPara3_p2: "por Florimond Volckaert y algunos amigos del turismo tras un viaje educativo a Escandinavia. Dos años después, en 1934, la formación se materializó en 'Association Internationale des Skal Clubs' bajo el liderazgo de Volckaert, conocido como el 'Padre de Skal'.",
     aboutPara4: "Hoy, Skal International está representado globalmente por aproximadamente",
-    aboutPara4_bold: "13,424 miembros en 343 clubes de 102 países.",
+    aboutPara4_bold: "12.500 miembros en 294 clubes de 75 países.",
     aboutPara4_p2: "Todos los clubes y Comités Nacionales operan bajo el paraguas de",
     aboutPara4_bold2: "SKAL INTERNATIONAL con sede en Torremolinos, España",
     aboutPara4_p3: ", y son administrados desde este centro.",

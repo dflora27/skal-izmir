@@ -155,17 +155,17 @@ export default async function WhatIsSkalPage({ params }: { params: Promise<{ lan
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto mb-20">
                <div className="bg-slate-50 border border-slate-100 rounded-3xl p-8 flex flex-col items-center text-center">
                   <Globe className="text-blue-600 mb-4" size={32} />
-                  <span className="text-4xl font-serif font-bold text-[#0A192F] mb-1">90+</span>
+                  <span className="text-4xl font-serif font-bold text-[#0A192F] mb-1">75</span>
                   <span className="text-xs tracking-widest uppercase font-bold text-slate-400">{t.statCountry}</span>
                </div>
                <div className="bg-slate-50 border border-slate-100 rounded-3xl p-8 flex flex-col items-center text-center">
                   <Building2 className="text-blue-600 mb-4" size={32} />
-                  <span className="text-4xl font-serif font-bold text-[#0A192F] mb-1">358</span>
+                  <span className="text-4xl font-serif font-bold text-[#0A192F] mb-1">294</span>
                   <span className="text-xs tracking-widest uppercase font-bold text-slate-400">{t.statClub}</span>
                </div>
                <div className="bg-slate-50 border border-slate-100 rounded-3xl p-8 flex flex-col items-center text-center">
                   <Users className="text-blue-600 mb-4" size={32} />
-                  <span className="text-4xl font-serif font-bold text-[#0A192F] mb-1">15.000</span>
+                  <span className="text-4xl font-serif font-bold text-[#0A192F] mb-1">12.500</span>
                   <span className="text-xs tracking-widest uppercase font-bold text-slate-400">{t.statMember}</span>
                </div>
                <div className="bg-[#0A192F] rounded-3xl p-8 flex flex-col items-center text-center justify-center text-white shadow-xl">

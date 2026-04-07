@@ -135,7 +135,7 @@ export const congressData = {
   },
   en: {
     hero: {
-      title: "83. Skal International World Congress 2024 İzmir",
+      title: "83rd Skål International World Congress in Izmir",
       subtitle: "Izmir 2024",
       motto: `"Tourism through Friendship"`,
       desc: "Skal International, the oldest and largest network uniting tourism professionals globally, hosted its 83rd World Congress in Izmir.",
@@ -269,7 +269,7 @@ export const congressData = {
   },
   es: {
     hero: {
-      title: "83. Skal International World Congress 2024 İzmir",
+      title: "83º Congreso Mundial de Skål International en Esmirna",
       subtitle: "Esmirna 2024",
       motto: `"Turismo a Través de la Amistad"`,
       desc: "Skal International, la red más antigua y extensa de profesionales del turismo, celebró su 83º Congreso Mundial en Esmirna.",
