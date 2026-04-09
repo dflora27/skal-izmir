@@ -29,7 +29,7 @@ export function Footer() {
 			corp: 'Kurumsal',
 			links: {
 				board: 'Yönetim Kurulu', president: 'Başkanın Mesajı', what: 'Skål Nedir?', izmir: 'Skål International İzmir', usdf: 'USDF',
-				events: 'Etkinlikler', members: 'Üye Ağı', young: 'Young Skål', florimond: 'Florimond Fund', contact: 'İletişim'
+				events: 'Etkinlikler', members: 'Üye Ağı', young: 'Young Skål', florimond: 'Florimond Volckaert Fonu', contact: 'İletişim'
 			},
 			quick: 'Hızlı Erişim',
 			news: 'Güncel Haberler',
@@ -44,7 +44,7 @@ export function Footer() {
 			corp: 'Corporate',
 			links: {
 				board: 'Board of Directors', president: 'President\'s Message', what: 'What is Skål?', izmir: 'Skål International Izmir', usdf: 'USDF',
-				events: 'Events', members: 'Member Network', young: 'Young Skål', florimond: 'Florimond Fund', contact: 'Contact'
+				events: 'Events', members: 'Member Network', young: 'Young Skål', florimond: 'Florimond Volckaert Fund', contact: 'Contact'
 			},
 			quick: 'Quick Access',
 			news: 'Latest News',
@@ -59,7 +59,7 @@ export function Footer() {
 			corp: 'Corporativo',
 			links: {
 				board: 'Junta Directiva', president: 'Mensaje del Presidente', what: '¿Qué es Skål?', izmir: 'Skål Esmirna', usdf: 'USDF',
-				events: 'Eventos', members: 'Red de Miembros', young: 'Young Skål', florimond: 'Fondo Florimond', contact: 'Contacto'
+				events: 'Eventos', members: 'Red de Miembros', young: 'Young Skål', florimond: 'Fondo Florimond Volckaert', contact: 'Contacto'
 			},
 			quick: 'Acceso Rápido',
 			news: 'Noticias Recientes',
