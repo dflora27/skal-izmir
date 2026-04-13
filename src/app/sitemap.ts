@@ -21,7 +21,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/announcements',
     '/skal-life',
     '/contact',
-    '/members'
+    '/members',
+    '/privacy-policy',
+    '/terms-of-use'
   ];
 
   const sitemapEntries: MetadataRoute.Sitemap = [];

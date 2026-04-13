@@ -54,7 +54,7 @@ export default async function WorldCongressPage({ params }: Props) {
         <div className="absolute inset-0 z-0 bg-[#050510]">
           <Image
             src="/swc/swc-bg.JPG"
-            alt="83rd Skal World Congress Izmir"
+            alt="83rd Skål World Congress Izmir"
             fill
             className="object-cover object-center scale-105 animate-[pulse_10s_ease-in-out_infinite]"
             quality={100}

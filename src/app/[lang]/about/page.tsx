@@ -29,7 +29,7 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: 't
     { title: dict.about?.young?.title || "Young Skål", desc: dict.about?.young?.desc || "Turizmin geleceği olan gençlerimiz için oluşturulan dinamik destek organizasyonumuz.", href: `/${lang}/young-skal` },
     { title: dict.about?.florimond?.title || "Florimond Volckaert Fund", desc: dict.about?.florimond?.desc || "Skål üyelerine zor zamanlarında destek olmak amacıyla kurulan küresel yardım fonu.", href: `/${lang}/florimond-volckaert-fund` },
     { title: dict.about?.skal_life?.title || "Skål Life", desc: dict.about?.skal_life?.desc || "İzmir turizmine yön veren yayınımız, kulüp üyelerimizin makaleleri ve sektör dergimiz.", href: `/${lang}/skal-life` },
-    { title: dict.about?.congress?.title || "83. Skål International World Congress", desc: dict.about?.congress?.desc || "İzmir'de düzenlenecek olan dev uluslararası Skål Kongresi detayları.", href: `/${lang}/world-congress` }
+    { title: dict.about?.congress?.title || "83rd Skål International World Congress in Izmir", desc: dict.about?.congress?.desc || "İzmir'de düzenlenecek olan dev uluslararası Skål Kongresi detayları.", href: `/${lang}/world-congress` }
   ];
 
   return (

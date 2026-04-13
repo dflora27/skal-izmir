@@ -217,7 +217,7 @@ export default async function Home({ params }: { params: Promise<{ lang: 'tr' | 
            <div className="md:w-1/2 p-12 lg:p-24 flex flex-col justify-center text-white bg-gradient-to-bl from-[#241744]/40 to-[#1B123A]">
               <span className="w-12 h-1 bg-[#F87498] rounded-full mb-8"></span>
               <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold leading-tight mb-6 tracking-tight drop-shadow-xl pr-4">
-                 {dict.world_congress_cta?.titlePrefix || '83. Skål International'} <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-[#F87498] italic tracking-tighter">{dict.world_congress_cta?.titleHighlight || 'World Congress 2024 İzmir'}</span>
+                 {dict.world_congress_cta?.titlePrefix || '83rd Skål International'} <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-[#F87498] italic tracking-tighter">{dict.world_congress_cta?.titleHighlight || 'World Congress 2024 İzmir'}</span>
               </h2>
               <p className="text-lg lg:text-xl text-blue-100/70 mb-12 font-light leading-relaxed max-w-xl">
                  {dict.world_congress_cta?.desc || 'İzmir\'de gerçekleşen bu dev küresel buluşmanın eşsiz atmosferini, anılarını ve oturumlarını özel kongre sayfamızda keşfedin.'}

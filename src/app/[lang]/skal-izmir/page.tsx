@@ -114,7 +114,7 @@ const PAGE_CONTENT = {
     awards: [
       { year: "1995", desc: "İzmir Kulübü 1991’de Bodrum, 1995 yılında da Kuşadası kulüplerinin kurucu sponsoru olmuştur." },
       { year: "2019", desc: "İzmir turizmine katkılarımızdan dolayı Artemis Farkındalık Onur Ödülü'nü alan ilk STK olduk." },
-      { year: "2020", desc: "7 kıta ve 103 ülkeden 19 rakip kulübü geride bırakarak <strong class=\"text-white\">“Dünyanın En İyi 2. Skal Kulübü”</strong> seçildik." }
+      { year: "2020", desc: "7 kıta ve 103 ülkeden 19 rakip kulübü geride bırakarak <strong class=\"text-white\">“Dünyanın En İyi 2. Skål Kulübü”</strong> seçildik." }
     ],
     visionTitle: "Skål International İzmir'in Turizm Vizyonu",
     visionP: "Sahip olduğu derin tarihsel doku, kültürel mirası ve sürdürülebilir turizm çalışmaları sayesinde bünyesinde barındırdığı tüm paydaş STK temsilcileri ile birlikte yarattığı sinerji ile İzmir'i uluslararası turizmin odak noktası haline getirmek.",
@@ -163,7 +163,7 @@ const PAGE_CONTENT = {
     awards: [
       { year: "1995", desc: "Izmir Club became the founding sponsor of the Bodrum club in 1991 and the Kuşadası clubs in 1995." },
       { year: "2019", desc: "We became the first NGO to receive the Artemis Awareness Honorary Award for our contributions to Izmir's tourism." },
-      { year: "2020", desc: "We were selected as the <strong class=\"text-white\">“2nd Best Skal Club in the World”</strong> leaving behind 19 competing clubs from 7 continents and 103 countries." }
+      { year: "2020", desc: "We were selected as the <strong class=\"text-white\">“2nd Best Skål Club in the World”</strong> leaving behind 19 competing clubs from 7 continents and 103 countries." }
     ],
     visionTitle: "The Tourism Vision of Skål International Izmir",
     visionP: "To make Izmir the focal point of international tourism through the synergy created with all stakeholder NGO representatives it harbors, thanks to its deep historical texture, cultural heritage, and sustainable tourism efforts.",
@@ -212,7 +212,7 @@ const PAGE_CONTENT = {
     awards: [
       { year: "1995", desc: "El Club de Esmirna se convirtió en el patrocinador fundador del club Bodrum en 1991 y los clubes de Kuşadası en 1995." },
       { year: "2019", desc: "Nos convertimos en la primera ONG en recibir el Premio de Honor a la Conciencia Artemis por nuestras contribuciones al turismo en Esmirna." },
-      { year: "2020", desc: "Fuimos seleccionados como el <strong class=\"text-white\">“Segundo Mejor Club Skal del Mundo”</strong> superando a 19 clubes competidores de 7 continentes y 103 países." }
+      { year: "2020", desc: "Fuimos seleccionados como el <strong class=\"text-white\">“Segundo Mejor Club Skål del Mundo”</strong> superando a 19 clubes competidores de 7 continentes y 103 países." }
     ],
     visionTitle: "La Visión Turística de Skål International Esmirna",
     visionP: "Convertir a Esmirna en el punto focal del turismo internacional a través de la sinergia creada con todos los representantes de ONG asociados que alberga, gracias a su rica textura histórica, patrimonio cultural y esfuerzos de turismo sostenible.",

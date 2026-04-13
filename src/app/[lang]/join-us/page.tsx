@@ -30,13 +30,13 @@ const JOIN_US_CONTENT = {
     heroTitle: "Skål International",
     heroSubtitle: "Turizmde Güvenilir Bir Ses",
     aboutPara1: "küresel turizm ve arkadaşlığı uluslararası boyutta destekleyen turizm liderlerinden oluşan uluslararası profesyonel bir örgüttür.",
-    aboutPara2: "SKAL, dünya turizm profesyonellerinin küresel turizmi ve arkadaşlığı yaymaya çalıştığı uluslararası en yaygın ve en eski turizm sivil toplum örgütüdür. Bünyesinde, uluslararası seyahat ve turizm endüstrisindeki tüm sektörleri toplaması bakımından da dünyada tektir. Turizmin üst düzey yöneticileri olan üyeleri, yerel, ulusal ve uluslararası platformlarda buluşurlar ve turizmin gündeminde bulunan belli başlı konuları tartışırlar. Skal, turizm profesyonelliğini geliştirmek ve bu alanda üyelerine yarar sağlamak amacındadır.",
+    aboutPara2: "SKAL, dünya turizm profesyonellerinin küresel turizmi ve arkadaşlığı yaymaya çalıştığı uluslararası en yaygın ve en eski turizm sivil toplum örgütüdür. Bünyesinde, uluslararası seyahat ve turizm endüstrisindeki tüm sektörleri toplaması bakımından da dünyada tektir. Turizmin üst düzey yöneticileri olan üyeleri, yerel, ulusal ve uluslararası platformlarda buluşurlar ve turizmin gündeminde bulunan belli başlı konuları tartışırlar. Skål, turizm profesyonelliğini geliştirmek ve bu alanda üyelerine yarar sağlamak amacındadır.",
     aboutSlogan: "‘’Doing Business Among Friends’’",
     aboutPara2_p2: "sloganını benimseyerek uluslararası dostluk ve iş bağlantısını pekiştirmek, Turizm endüstrisinde profesyonelliği kuvvetlendirmek amacı ile düzenlenen seminer, konferans ve benzeri organizasyonların yapılmasını teşvik eder.",
     aboutPara3: "İlk kulüp, İskandinavya’da yapılan bir eğitim gezisi sonucunda Florimond Volckaert ve birkaç turizmci arkadaşı tarafından",
     aboutPara3_bold: "1932 yılında Paris’te kurulmuştur.",
-    aboutPara3_p2: "2 yıl sonra, 1934 yılında, bu oluşum, dostluk ve uluslararası bazda gelişmiş, ‘’Association Internationale des Skal Clubs’’ formasyonunda ve Paris Skal Başkanı olan ‘’Father of Skal’’ olarak da bilinen Florimond Volckaert öncülüğünde Skal, uluslararası kimliğine kavuşmuştur.",
-    aboutPara4: "Uluslararası Skal, bugün yaklaşık",
+    aboutPara3_p2: "2 yıl sonra, 1934 yılında, bu oluşum, dostluk ve uluslararası bazda gelişmiş, ‘’Association Internationale des Skål Clubs’’ formasyonunda ve Paris Skål Başkanı olan ‘’Father of Skål’’ olarak da bilinen Florimond Volckaert öncülüğünde Skål, uluslararası kimliğine kavuşmuştur.",
+    aboutPara4: "Uluslararası Skål, bugün yaklaşık",
     aboutPara4_bold: "75 ülkede, 294 kulüp ve 12.500 üye",
     aboutPara4_p2: "ile temsil edilmektedir. Tüm kulüpler ve Ulusal Komiteler",
     aboutPara4_bold2: "İspanya/Torremolinos’da SKAL INTERNATIONAL",
@@ -46,9 +46,9 @@ const JOIN_US_CONTENT = {
     missionDesc: "Profesyonelliğimiz, dostluklarımız ve liderliğimizle vizyonumuzu geliştirmek ve bu özelliklerimizi azami kullanarak",
     missionBold: "‘’Güvenilir ve sorumlu bir Turizm Endüstrisi’’",
     missionDesc2: "için çok çalışmak!",
-    principlesTitle: "SKAL Evrensel Prensipleri",
+    principlesTitle: "SKÅL Evrensel Prensipleri",
     privilegesTitle: "Üyesi Olmanın Ayrıcalıkları",
-    whoCanJoinTitle: "Kimler SKAL Üyesi Olabilir?",
+    whoCanJoinTitle: "Kimler SKÅL Üyesi Olabilir?",
     whoCanJoinDesc: "Turizm endüstrisine profesyonel olarak emek veren ve çeşitli kategorilerde faaliyet gösteren yöneticiler Skål ailesine katılabilir.",
     categoriesTitle: "Üyelik Kategorileri",
     categories: {
@@ -72,13 +72,13 @@ const JOIN_US_CONTENT = {
     heroTitle: "Skål International",
     heroSubtitle: "A Trusted Voice in Tourism",
     aboutPara1: "is an international professional organization of tourism leaders, promoting global tourism and friendship on an international scale.",
-    aboutPara2: "SKAL is the most widespread and oldest international tourism non-governmental organization, bringing together all branches of the globe's travel and tourism industry. Members, the industry's managers and executives, meet at local, national, and international platforms to discuss matters affecting the tourism agenda. Skal aims to develop tourism professionalism and benefit its members. By embracing the slogan",
+    aboutPara2: "SKAL is the most widespread and oldest international tourism non-governmental organization, bringing together all branches of the globe's travel and tourism industry. Members, the industry's managers and executives, meet at local, national, and international platforms to discuss matters affecting the tourism agenda. Skål aims to develop tourism professionalism and benefit its members. By embracing the slogan",
     aboutSlogan: "''Doing Business Among Friends''",
     aboutPara2_p2: ", it encourages seminars, conferences, and similar events to strengthen professional ties and international friendship.",
     aboutPara3: "The first club was founded in",
     aboutPara3_bold: "Paris in 1932",
-    aboutPara3_p2: "by Florimond Volckaert and a few tourism friends following an educational trip to Scandinavia. Two years later, in 1934, the formation materialized into the 'Association Internationale des Skal Clubs' under the leadership of Florimond Volckaert, widely known as the ''Father of Skal''.",
-    aboutPara4: "Today, Skal International is represented globally with approximately",
+    aboutPara3_p2: "by Florimond Volckaert and a few tourism friends following an educational trip to Scandinavia. Two years later, in 1934, the formation materialized into the 'Association Internationale des Skål Clubs' under the leadership of Florimond Volckaert, widely known as the ''Father of Skål''.",
+    aboutPara4: "Today, Skål International is represented globally with approximately",
     aboutPara4_bold: "12,500 members across 294 clubs in 75 countries.",
     aboutPara4_p2: "All clubs and National Committees operate under the umbrella of",
     aboutPara4_bold2: "SKAL INTERNATIONAL headquartered in Torremolinos, Spain",
@@ -88,9 +88,9 @@ const JOIN_US_CONTENT = {
     missionDesc: "Through our leadership, professionalism, and friendship, work together to enhance our vision, maximize our potential, and foster a",
     missionBold: "''Trusted and Responsible Tourism Industry''",
     missionDesc2: "!",
-    principlesTitle: "SKAL Universal Principles",
+    principlesTitle: "SKÅL Universal Principles",
     privilegesTitle: "Privileges of Membership",
-    whoCanJoinTitle: "Who Can Join SKAL?",
+    whoCanJoinTitle: "Who Can Join SKÅL?",
     whoCanJoinDesc: "Managers and executives professionally active in various categories of the tourism and travel industry can join the Skål family.",
     categoriesTitle: "Membership Categories",
     categories: {
@@ -114,13 +114,13 @@ const JOIN_US_CONTENT = {
     heroTitle: "Skål International",
     heroSubtitle: "Una Voz Confiable en el Turismo",
     aboutPara1: "es una organización profesional internacional de líderes turísticos, promoviendo el turismo global y la amistad a escala internacional.",
-    aboutPara2: "SKAL es la organización no gubernamental de turismo internacional más extendida y antigua, reuniendo todas las ramas de la industria de viajes y turismo. Los miembros, gerentes y ejecutivos del sector se reúnen a nivel local, nacional e internacional para tratar temas de la agenda turística. Skal busca desarrollar el profesionalismo turístico y beneficiar a sus miembros. Abrazando el lema",
+    aboutPara2: "SKAL es la organización no gubernamental de turismo internacional más extendida y antigua, reuniendo todas las ramas de la industria de viajes y turismo. Los miembros, gerentes y ejecutivos del sector se reúnen a nivel local, nacional e internacional para tratar temas de la agenda turística. Skål busca desarrollar el profesionalismo turístico y beneficiar a sus miembros. Abrazando el lema",
     aboutSlogan: "''Doing Business Among Friends''",
     aboutPara2_p2: ", fomenta seminarios y conferencias para fortalecer lazos profesionales y amistad internacional.",
     aboutPara3: "El primer club fue fundado en",
     aboutPara3_bold: "París en 1932",
-    aboutPara3_p2: "por Florimond Volckaert y algunos amigos del turismo tras un viaje educativo a Escandinavia. Dos años después, en 1934, la formación se materializó en 'Association Internationale des Skal Clubs' bajo el liderazgo de Volckaert, conocido como el 'Padre de Skal'.",
-    aboutPara4: "Hoy, Skal International está representado globalmente por aproximadamente",
+    aboutPara3_p2: "por Florimond Volckaert y algunos amigos del turismo tras un viaje educativo a Escandinavia. Dos años después, en 1934, la formación se materializó en 'Association Internationale des Skål Clubs' bajo el liderazgo de Volckaert, conocido como el 'Padre de Skål'.",
+    aboutPara4: "Hoy, Skål International está representado globalmente por aproximadamente",
     aboutPara4_bold: "12.500 miembros en 294 clubes de 75 países.",
     aboutPara4_p2: "Todos los clubes y Comités Nacionales operan bajo el paraguas de",
     aboutPara4_bold2: "SKAL INTERNATIONAL con sede en Torremolinos, España",
@@ -130,9 +130,9 @@ const JOIN_US_CONTENT = {
     missionDesc: "A través de nuestro liderazgo y amistad, trabajar juntos para potenciar nuestra visión, maximizar características y fomentar una",
     missionBold: "''Industria Turística Confiable y Responsable''",
     missionDesc2: "!",
-    principlesTitle: "Principios Universales de SKAL",
+    principlesTitle: "Principios Universales de SKÅL",
     privilegesTitle: "Privilegios de Ser Miembro",
-    whoCanJoinTitle: "¿Quién Puede Unirse a SKAL?",
+    whoCanJoinTitle: "¿Quién Puede Unirse a SKÅL?",
     whoCanJoinDesc: "Gerentes y ejecutivos profesionalmente activos en varias categorías de la industria pueden unirse a la familia Skål.",
     categoriesTitle: "Categorías de Membresía",
     categories: {
@@ -167,11 +167,11 @@ const PRIVILEGES = {
 
 const WHO_CAN_JOIN = {
   tr: [
-    "Seyahat Acenteleri", "Konaklama tesisleri", "Havayolu, Denizyolu ve Demiryolu ulaştırması,",
-    "Turist rehberleri,", "Turizm Akademisyenleri,", "Turizm Danışmanları ,", "Rent a Car firmaları,",
-    "Resmi Turizm Kuruluşları,", "Restaurantlar,", "Seyahat blog yazarları,", "Agro, eko turizmciler,",
-    "Cruise firmaları,", "E - Turizm firmaları,", "Turizm tedarikçileri,", "Tematik Park Yöneticileri,",
-    "Sağlık Turizmi Yöneticileri", "Diğer profesyoneller…"
+    "Seyahat Acenteleri", "Konaklama tesisleri", "Havayolu, Denizyolu ve Demiryolu Ulaştırması",
+    "Turist Rehberleri", "Turizm Akademisyenleri", "Turizm Danışmanları", "Rent a Car Firmaları",
+    "Resmi Turizm Kuruluşları", "Restoranlar", "Seyahat Blog Yazarları", "Agro ve Eko Turizmciler",
+    "Cruise Firmaları", "E-Turizm Firmaları", "Turizm Tedarikçileri", "Tematik Park Yöneticileri",
+    "Sağlık Turizmi Yöneticileri", "Diğer Profesyoneller"
   ],
   en: [
     "Travel Agencies", "Hotels and Accommodations", "Air, Sea, and Rail transport operators",
@@ -234,7 +234,7 @@ export default async function JoinUsPage({ params }: Props) {
       {/* Content Section */}
       <section className="py-24 relative z-20 w-full max-w-[1200px] mx-auto px-6 lg:px-12">
         
-        {/* About Skal Section */}
+        {/* About Skål Section */}
         <div className="prose prose-lg lg:prose-xl max-w-none text-slate-600 font-light leading-relaxed mb-32 drop-shadow-sm">
           <p className="first-letter:text-7xl first-letter:font-bold first-letter:text-[#4E3F84] first-letter:mr-3 first-letter:float-left">
             <strong className="text-[#0A192F] font-semibold">Skål</strong>, {t.aboutPara1}

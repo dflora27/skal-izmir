@@ -15,7 +15,7 @@
       "usdf": "USDF",
       "young_skal": "Young Skål",
       "florimond": "Florimond Volckaert Fonu",
-      "skal_history": "83. Skål International",
+      "skal_history": "83rd Skål International",
       "announcements": "Duyurular & Haberler",
       "skal_life": "Skål Life"
     }
@@ -85,12 +85,12 @@
       "desc": "İzmir turizmine yön veren yayınımız, kulüp üyelerimizin makaleleri ve sektör dergimiz."
     },
     "congress": {
-      "title": "83. Skål International World Congress",
+      "title": "83rd Skål International World Congress in Izmir",
       "desc": "İzmir'de düzenlenecek olan dev uluslararası Skål Kongresi detayları."
     }
   },
   "world_congress_cta": {
-    "titlePrefix": "83. Skål International",
+    "titlePrefix": "83rd Skål International",
     "titleHighlight": "World Congress 2024 İzmir",
     "desc": "İzmir'de gerçekleşen bu dev küresel buluşmanın eşsiz atmosferini, anılarını ve oturumlarını özel kongre sayfamızda keşfedin.",
     "button": "Keşfet"

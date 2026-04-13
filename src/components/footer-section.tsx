@@ -132,8 +132,8 @@ export function Footer() {
 						{new Date().getFullYear()} © Skål International İzmir. {t.rights}
 					</p>
 					<div className="flex gap-6 text-slate-400 text-xs font-semibold">
-						<Link href={`/${lang}`} className="hover:text-[#0A192F] transition-colors">{t.privacy}</Link>
-						<Link href={`/${lang}`} className="hover:text-[#0A192F] transition-colors">{t.terms}</Link>
+						<Link href={`/${lang}/privacy-policy`} className="hover:text-[#0A192F] transition-colors">{t.privacy}</Link>
+						<Link href={`/${lang}/terms-of-use`} className="hover:text-[#0A192F] transition-colors">{t.terms}</Link>
 					</div>
 				</div>
 

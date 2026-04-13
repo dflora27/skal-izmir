@@ -1,14 +1,14 @@
 export const congressData = {
   tr: {
     hero: {
-      title: "83. Skal International World Congress 2024 İzmir",
+      title: "83rd Skål International World Congress in Izmir",
       subtitle: "İzmir 2024",
       motto: `"Dostluk Yoluyla Turizm" (Tourism through Friendship)`,
-      desc: "Dünya turizm profesyonellerini aynı çatı altında toplayan en eski ve en yaygın sivil toplum örgütü Skal International, 83. Dünya Kongresi'ni İzmir'de gerçekleştirdi.",
+      desc: "Dünya turizm profesyonellerini aynı çatı altında toplayan en eski ve en yaygın sivil toplum örgütü Skål International, 83. Dünya Kongresi'ni İzmir'de gerçekleştirdi.",
     },
     candidacy: {
       title: "Zaferle Sonuçlanan Adaylık Süreci",
-      desc: "İzmir'in bu kongreye ev sahipliği yapması, Skal İzmir Kulübü'nün iki yılı aşkın süren yoğun diplomatik çabalarının bir sonucudur.",
+      desc: "İzmir'in bu kongreye ev sahipliği yapması, Skål İzmir Kulübü'nün iki yılı aşkın süren yoğun diplomatik çabalarının bir sonucudur.",
       bullets: [
         { title: "Yarışılan Kentler", content: "Romanya'dan Bükreş, Rusya'dan St. Petersburg ve Hindistan'dan Kalküta gibi güçlü rakipler." },
         { title: "Oylama Sonucu", content: "27 Eylül 2022 tarihinde, Dünya Turizm Günü'nde yapılan final oylamasında 256 oyun 159'unu alarak 17 yıl aradan sonra Türkiye'ye ve ilk kez İzmir'e kazandırılmıştır." }
@@ -142,7 +142,7 @@ export const congressData = {
     },
     candidacy: {
       title: "The Victorious Candidacy Process",
-      desc: "Hosting this congress was the result of over two years of intensive diplomatic efforts by Skal Izmir.",
+      desc: "Hosting this congress was the result of over two years of intensive diplomatic efforts by Skål Izmir.",
       bullets: [
         { title: "Competing Cities", content: "Fierce rivals including Bucharest (Romania), St. Petersburg (Russia), and Kolkata (India)." },
         { title: "Voting Outcome", content: "At the final vote on World Tourism Day, Izmir won 159 out of 256 votes, bringing the congress to Turkey after 17 years and to Izmir for the first time." }
@@ -191,7 +191,7 @@ export const congressData = {
           "/swc/opening-ceramony-02 (8).jpg"
         ],
         details: [
-          { subtitle: "Ceremony", content: "Led by Skal World President Annette Cardenas at AASSM." }
+          { subtitle: "Ceremony", content: "Led by Skål World President Annette Cardenas at AASSM." }
         ]
       },
       {
@@ -276,7 +276,7 @@ export const congressData = {
     },
     candidacy: {
       title: "Un Proceso de Candidatura Victorioso",
-      desc: "Ser sede de este congreso fue el resultado de más de dos años de intensos esfuerzos diplomáticos por parte de Skal Esmirna.",
+      desc: "Ser sede de este congreso fue el resultado de más de dos años de intensos esfuerzos diplomáticos por parte de Skål Esmirna.",
       bullets: [
         { title: "Ciudades Competidoras", content: "Rivales como Bucarest, San Petersburgo y Calcuta." },
         { title: "Resultado de la Votación", content: "Esmirna obtuvo 159 de 256 votos, atrayendo el congreso a Turquía después de 17 años." }
