@@ -102,10 +102,10 @@ export default async function Home({ params }: { params: Promise<{ lang: 'tr' | 
       {/* Collaborations Marquee */}
       <section className="py-20 bg-white border-y border-slate-100 overflow-hidden">
          <div className="container mx-auto px-6 md:px-12 mb-12 text-center">
-            <h2 className="text-3xl font-sans font-bold text-[#0A192F] mb-4">Skål International | İş Birlikleri</h2>
-            <p className="text-slate-500 font-light max-w-2xl mx-auto">
-               Seyahat ve turizm sektörünün önde gelen kuruluşlarıyla olan güçlü bağlarımızdan ve iş birliklerimizden gurur duyuyoruz.
-            </p>
+             <h2 className="text-3xl font-sans font-bold text-[#0A192F] mb-4">{dict.collaborations?.title || 'Skål International | İş Birlikleri'}</h2>
+             <p className="text-slate-500 font-light max-w-2xl mx-auto">
+                {dict.collaborations?.desc || 'Seyahat ve turizm sektörünün önde gelen kuruluşlarıyla olan güçlü bağlarımızdan ve iş birliklerimizden gurur duyuyoruz.'}
+             </p>
          </div>
          <div className="relative w-full flex overflow-hidden group">
              <div className="absolute top-0 left-0 w-32 h-full bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"></div>
@@ -259,12 +259,12 @@ export default async function Home({ params }: { params: Promise<{ lang: 'tr' | 
               </p>
               <div className="space-y-6">
                 <div>
-                  <h4 className="uppercase tracking-widest text-xs font-bold text-slate-400 mb-1">E-posta</h4>
+                  <h4 className="uppercase tracking-widest text-xs font-bold text-slate-400 mb-1">{dict.contact?.emailLabel || 'E-posta'}</h4>
                   <a href="mailto:info@skalizmir.com" className="text-[#0A192F] font-semibold hover:text-blue-600 transition-colors">info@skalizmir.com</a>
                 </div>
                 <div>
-                  <h4 className="uppercase tracking-widest text-xs font-bold text-slate-400 mb-1">Adres</h4>
-                  <p className="text-[#0A192F] font-medium max-w-xs">İsmet Kaptan Mahallesi<br/>Çankaya İş Merkezi No.90 Kat:5 D: 507<br/>Konak / İZMİR</p>
+                  <h4 className="uppercase tracking-widest text-xs font-bold text-slate-400 mb-1">{dict.contact?.addressLabel || 'Adres'}</h4>
+                  <p className="text-[#0A192F] font-medium max-w-xs" dangerouslySetInnerHTML={{ __html: dict.contact?.address || 'İsmet Kaptan Mahallesi<br/>Çankaya İş Merkezi No.90 Kat:5 D: 507<br/>Konak / İZMİR' }}></p>
                 </div>
               </div>
             </div>
@@ -272,16 +272,16 @@ export default async function Home({ params }: { params: Promise<{ lang: 'tr' | 
             <div className="lg:w-1/2 bg-white rounded-3xl p-10 shadow-xl border border-slate-100">
                <form className="flex flex-col gap-6">
                  <div className="flex flex-col">
-                   <label className="text-xs uppercase tracking-widest font-bold text-slate-500 mb-2">Ad Soyad</label>
-                   <input type="text" className="w-full border-b border-slate-300 py-3 focus:outline-none focus:border-blue-600 transition-colors text-[#0A192F] font-medium" placeholder="Örn: Ahmet Yılmaz" />
+                   <label className="text-xs uppercase tracking-widest font-bold text-slate-500 mb-2">{dict.contact?.formName || 'Ad Soyad'}</label>
+                   <input type="text" className="w-full border-b border-slate-300 py-3 focus:outline-none focus:border-blue-600 transition-colors text-[#0A192F] font-medium" placeholder={dict.contact?.formNamePlaceholder || 'Örn: Ahmet Yılmaz'} />
                  </div>
                  <div className="flex flex-col">
-                   <label className="text-xs uppercase tracking-widest font-bold text-slate-500 mb-2">E-Posta</label>
+                   <label className="text-xs uppercase tracking-widest font-bold text-slate-500 mb-2">{dict.contact?.formEmail || 'E-Posta'}</label>
                    <input type="email" className="w-full border-b border-slate-300 py-3 focus:outline-none focus:border-blue-600 transition-colors text-[#0A192F] font-medium" placeholder="ornek@sirket.com" />
                  </div>
                  <div className="flex flex-col">
-                   <label className="text-xs uppercase tracking-widest font-bold text-slate-500 mb-2">Mesajınız</label>
-                   <textarea rows={4} className="w-full border-b border-slate-300 py-3 focus:outline-none focus:border-blue-600 transition-colors text-[#0A192F] font-medium resize-none" placeholder="Nasıl yardımcı olabiliriz?"></textarea>
+                   <label className="text-xs uppercase tracking-widest font-bold text-slate-500 mb-2">{dict.contact?.formMessage || 'Mesajınız'}</label>
+                   <textarea rows={4} className="w-full border-b border-slate-300 py-3 focus:outline-none focus:border-blue-600 transition-colors text-[#0A192F] font-medium resize-none" placeholder={dict.contact?.formMessagePlaceholder || 'Nasıl yardımcı olabiliriz?'}></textarea>
                  </div>
                  <button type="button" className="mt-4 px-10 py-5 bg-[#0A192F] text-white text-sm tracking-[0.1em] uppercase font-bold hover:bg-blue-600 transition-colors duration-500 rounded-xl shadow-lg w-full">
                     {dict.contact.formButton}

@@ -20,23 +20,23 @@ export async function generateMetadata(
   const resolvedParams = await params;
   const lang = resolvedParams.lang;
   
-  // Basic translation mapping for SEO titles
+  // Enhanced translation mapping for SEO titles
   const titles: Record<string, string> = {
-    tr: "Skål International İzmir",
-    en: "Skål International İzmir",
-    es: "Skål International Esmirna"
+    tr: "Skål International İzmir | Seyahat ve Turizm Profesyonelleri Ağı",
+    en: "Skål International Izmir | Global Travel & Tourism Professionals Network",
+    es: "Skål International Esmirna | Red de Profesionales de Viajes y Turismo"
   };
 
   const descriptions: Record<string, string> = {
-    tr: "Skål International, 1934'ten Beri Tüm Dünyadaki Seyahat ve Turizm Profesyonellerini Bir Araya Getiriyor.",
-    en: "Skål International Brings Together Travel and Tourism Professionals Worldwide Since 1934.",
-    es: "Skål International Reúne a Profesionales de Viajes y Turismo de Todo el Mundo Desde 1934."
+    tr: "Skål International İzmir, Ege'nin turizm potansiyelini küresel dostluk ağıyla birleştirerek seyahat ve turizm profesyonellerini bir araya getirir.",
+    en: "Skål International Izmir brings together travel and tourism professionals, blending the Aegean's tourism potential with a global friendship network.",
+    es: "Skål International Esmirna reúne a profesionales de viajes y turismo, combinando el potencial turístico del Egeo con una red global de amistad."
   };
 
   return {
     title: titles[lang] || titles.tr,
     description: descriptions[lang] || descriptions.tr,
-    keywords: "Skal, Izmir, Turizm, Seyahat, Tourism, Travel, Ege, Aegean, Network",
+    keywords: "Skal International Izmir, Izmir tourism network, travel professionals Izmir, Skål club Turkey, Ege turizm ağı, Skal Izmir members, İzmir seyahat profesyonelleri, Aegean tourism, global tourism network",
     openGraph: {
       title: titles[lang] || titles.tr,
       description: descriptions[lang] || descriptions.tr,

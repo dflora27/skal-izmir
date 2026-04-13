@@ -119,7 +119,15 @@
   "contact": {
     "title": "Connect With Us",
     "desc": "For your questions, suggestions, or membership applications, you can contact the Skål Izmir Board of Directors and our secretariat. We will respond to your requests as soon as possible.",
-    "formButton": "Request Form"
+    "formButton": "Request Form",
+    "emailLabel": "Email",
+    "addressLabel": "Address",
+    "address": "İsmet Kaptan Mahallesi<br/>Çankaya İş Merkezi No.90 Kat:5 D: 507<br/>Konak / İZMİR",
+    "formName": "Full Name",
+    "formNamePlaceholder": "e.g. John Doe",
+    "formEmail": "Email",
+    "formMessage": "Your Message",
+    "formMessagePlaceholder": "How can we help?"
   },
   "footer": {
     "address": "İsmet Kaptan Mahallesi, Çankaya İş Merkezi\nNo.90 Floor:5 D: 507 Konak / İZMİR",

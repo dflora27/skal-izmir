@@ -119,7 +119,15 @@
   "contact": {
     "title": "Bizimle Bağlantı Kurun",
     "desc": "Sorularınız, önerileriniz veya üyelik başvurularınız için Skål International İzmir Yönetim Kurulu ve sekreteryamızla iletişime geçebilirsiniz. Taleplerinize en kısa sürede dönüş sağlanacaktır.",
-    "formButton": "Talep Formu"
+    "formButton": "Talep Formu",
+    "emailLabel": "E-posta",
+    "addressLabel": "Adres",
+    "address": "İsmet Kaptan Mahallesi<br/>Çankaya İş Merkezi No.90 Kat:5 D: 507<br/>Konak / İZMİR",
+    "formName": "Ad Soyad",
+    "formNamePlaceholder": "Örn: Ahmet Yılmaz",
+    "formEmail": "E-Posta",
+    "formMessage": "Mesajınız",
+    "formMessagePlaceholder": "Nasıl yardımcı olabiliriz?"
   },
   "footer": {
     "address": "İsmet Kaptan Mahallesi, Çankaya İş Merkezi\nNo.90 Kat:5 D: 507 Konak / İZMİR",

@@ -119,7 +119,15 @@
   "contact": {
     "title": "Conéctate Con Nosotros",
     "desc": "Para tus dudas, sugerencias o solicitudes de membresía, puedes contactar a la Junta Directiva de Skål Esmirna y nuestra secretaría. Responderemos a tus solicitudes lo antes posible.",
-    "formButton": "Formulario de Solicitud"
+    "formButton": "Formulario de Solicitud",
+    "emailLabel": "Correo",
+    "addressLabel": "Dirección",
+    "address": "İsmet Kaptan Mahallesi<br/>Çankaya İş Merkezi No.90 Piso:5 D: 507<br/>Konak / ESMIRNA",
+    "formName": "Nombre Completo",
+    "formNamePlaceholder": "p. ej. Juan Pérez",
+    "formEmail": "Correo Electrónico",
+    "formMessage": "Tu Mensaje",
+    "formMessagePlaceholder": "¿Cómo podemos ayudar?"
   },
   "footer": {
     "address": "İsmet Kaptan Mahallesi, Çankaya İş Merkezi\nNo.90 Piso:5 D: 507 Konak / ESMIRNA",
